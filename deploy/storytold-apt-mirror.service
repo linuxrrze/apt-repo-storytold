@@ -1,0 +1,23 @@
+[Unit]
+Description=Mirror storytold GitHub .deb releases into an APT repository
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=aptmirror
+Group=aptmirror
+# Optional: GITHUB_TOKEN=... (no scopes needed) raises the API limit to 5000 req/h
+EnvironmentFile=-/etc/default/storytold-apt-mirror
+Environment=GNUPGHOME=/var/lib/aptmirror/gnupg
+ExecStart=/usr/local/bin/storytold-apt-mirror.py \
+    --out /srv/apt/storytold \
+    --arch amd64 arm64 riscv64 \
+    --keep 2 \
+    --gpg-key ${SIGNING_KEY}
+Nice=10
+IOSchedulingClass=idle
+ProtectSystem=strict
+ReadWritePaths=/srv/apt/storytold /var/lib/aptmirror
+PrivateTmp=yes
+NoNewPrivileges=yes
