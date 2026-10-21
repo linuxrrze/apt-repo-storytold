@@ -40,11 +40,12 @@ sudo install -d -m 0755 /etc/apt/keyrings
 sudo curl -fsSLo /etc/apt/keyrings/storytold.asc \
   https://linuxrrze.github.io/apt-repo-storytold/storytold-archive-keyring.asc
 
-sudo tee /etc/apt/sources.list.d/storytold.sources <<'EOF'
+sudo tee /etc/apt/sources.list.d/storytold.sources <<EOF
 Types: deb
 URIs: mirror+https://linuxrrze.github.io/apt-repo-storytold/mirrors.txt
 Suites: stable
 Components: main
+Architectures: $(dpkg --print-architecture)
 Signed-By: /etc/apt/keyrings/storytold.asc
 EOF
 
@@ -130,11 +131,12 @@ add it as shown above.
 sudo curl -fsSLo /usr/share/keyrings/storytold-archive-keyring.gpg \
   https://apt.example.org/storytold-archive-keyring.gpg
 
-sudo tee /etc/apt/sources.list.d/storytold.sources <<'EOF'
+sudo tee /etc/apt/sources.list.d/storytold.sources <<EOF
 Types: deb
 URIs: https://apt.example.org
 Suites: stable
 Components: main
+Architectures: $(dpkg --print-architecture)
 Signed-By: /usr/share/keyrings/storytold-archive-keyring.gpg
 EOF
 
