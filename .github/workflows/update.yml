@@ -1,0 +1,93 @@
+name: Update repository
+
+# Indexes new storytold .deb releases, then rebuilds, signs and publishes the
+# APT indexes to GitHub Pages. The .deb files themselves stay on their GitHub
+# releases; clients are sent there by mirrors.txt. state/debs.json holds the
+# index entry of every published .deb and is committed back to the repository.
+
+on:
+  schedule:
+    - cron: '23 */3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['storytold-apt-mirror.py', 'state/debs.json', '.github/workflows/update.yml']
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: repo-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Import repository signing key
+        env:
+          REPO_GPG_PRIVATE_KEY: ${{ secrets.REPO_GPG_PRIVATE_KEY }}
+        run: |
+          if [ -z "$REPO_GPG_PRIVATE_KEY" ]; then
+            echo "::error::Secret REPO_GPG_PRIVATE_KEY is not set"
+            exit 1
+          fi
+          echo "$REPO_GPG_PRIVATE_KEY" | gpg --batch --import
+          echo "KEY_ID=$(gpg --list-secret-keys --with-colons | awk -F: '/^fpr/ {print $10; exit}')" >> "$GITHUB_ENV"
+
+      - id: pages
+        uses: actions/configure-pages@v6
+
+      - id: mirror
+        name: Index new releases and build the repository
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          # On failure still publish what could be added, the last step fails the run
+          result=0
+          ./storytold-apt-mirror.py --out public --state state --keep 5 \
+              --remote-debs "${{ steps.pages.outputs.base_url }}/" --gpg-key "$KEY_ID" \
+              2> >(tee "$RUNNER_TEMP/log" >&2) || result=$?
+          echo "result=$result" >> "$GITHUB_OUTPUT"
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add state/debs.json
+          if ! git diff --cached --quiet; then
+            added=$(awk '/^fetch / {print $2, $3}' "$RUNNER_TEMP/log" | sort -u | paste -sd, - | sed 's/,/, /g')
+            if [ -n "$added" ]; then
+              git commit -m "Add $added"
+            else
+              git commit -m "Remove old versions from the package index"
+            fi
+            git push
+          elif [ "$(git log -1 --format=%ct)" -lt "$(date -d '50 days ago' +%s)" ]; then
+            # GitHub disables scheduled workflows after 60 days without repository activity
+            git commit --allow-empty -m "Keepalive: no new release for 50 days"
+            git push
+          else
+            echo "Nothing new"
+          fi
+
+      # Never replace the published repository with an incomplete one
+      - if: hashFiles('public/dists/stable/InRelease') != ''
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: public
+
+      - id: deploy
+        if: hashFiles('public/dists/stable/InRelease') != ''
+        uses: actions/deploy-pages@v5
+
+      - name: Report failures
+        if: steps.mirror.outputs.result != '0'
+        run: |
+          echo "::error::Some releases couldn't be indexed, see the lines starting with 'error' in the previous step"
+          exit 1

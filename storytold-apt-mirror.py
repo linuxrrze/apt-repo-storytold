@@ -8,6 +8,10 @@ Layout written under --out (serve it as static files):
     dists/<suite>/main/binary-<arch>/Packages{,.gz}
     storytold-archive-keyring.{asc,gpg}
 
+With --remote-debs the .debs aren't stored: each one is downloaded once to build its
+index entry, and clients fetch it from its GitHub release via apt's mirror+ method
+(mirrors.txt). --out then only holds the indexes, e.g. for GitHub Pages.
+
 Requires: python3 (stdlib only), dpkg-deb, gpg (for signing).
 Set GITHUB_TOKEN to raise the GitHub API rate limit from 60 to 5000 requests/hour.
 """
@@ -31,6 +35,8 @@ from pathlib import Path
 
 API = "https://api.github.com"
 COMPONENT = "main"
+# With --remote-debs, Filename: is the path of the release asset below this URL
+DEB_HOST = "https://github.com/"
 # Release asset suffix -> Debian architecture
 ASSET_ARCH = {"x86_64": "amd64", "aarch64": "arm64", "riscv64": "riscv64"}
 
@@ -101,6 +107,16 @@ def deb_control(path):
     return out.rstrip("\n")
 
 
+def deb_meta(path):
+    return {
+        "control": deb_control(path),
+        "size": path.stat().st_size,
+        "md5": sha256_file(path, "md5"),
+        "sha1": sha256_file(path, "sha1"),
+        "sha256": sha256_file(path),
+    }
+
+
 def control_field(stanza, name):
     m = re.search(rf"^{name}:\s*(.+)$", stanza, re.M)
     return m.group(1).strip() if m else None
@@ -117,11 +133,16 @@ class Mirror:
     def __init__(self, args):
         self.a = args
         self.out = Path(args.out).resolve()
+        self.remote = args.remote_debs
         self.pool = self.out / "pool" / COMPONENT
-        self.state = self.out / ".state"
+        self.state = Path(args.state).resolve() if args.state else self.out / ".state"
+        # Metadata of every indexed .deb; with --remote-debs the only record of them
         self.cache_file = self.state / "debs.json"
-        self.pool.mkdir(parents=True, exist_ok=True)
+        self.out.mkdir(parents=True, exist_ok=True)
+        if not self.remote:
+            self.pool.mkdir(parents=True, exist_ok=True)
         self.state.mkdir(parents=True, exist_ok=True)
+        self.failed = False
         self.cache = json.loads(self.cache_file.read_text()) if self.cache_file.exists() else {}
         # Assets already reported as skipped, so the timer's journal only mentions them once.
         self.skipped_file = self.state / "skipped.json"
@@ -133,41 +154,65 @@ class Mirror:
         repos = self.a.repos or org_repos(self.a.org, self.a.max_age_days)
         skipped = set()
         for repo in repos:
-            rel = latest_release(self.a.org, repo)
-            if not rel:
+            # One failing repo or asset doesn't stop the others; run() reports it
+            try:
+                self.sync_repo(repo, skipped)
+            except (OSError, ValueError, subprocess.CalledProcessError) as e:
+                log(f"error {repo}: {e}")
+                self.failed = True
+        self.skipped = skipped
+
+    def sync_repo(self, repo, skipped):
+        rel = latest_release(self.a.org, repo)
+        if not rel:
+            return
+        debs = [x for x in rel["assets"] if x["name"].endswith(".deb")]
+        if not debs:
+            return
+        sums = None
+        for asset in debs:
+            m = re.search(r"-linux-([a-z0-9_]+)\.deb$", asset["name"])
+            arch = ASSET_ARCH.get(m.group(1), m.group(1)) if m else None
+            if self.a.arch and arch not in self.a.arch:
                 continue
-            debs = [x for x in rel["assets"] if x["name"].endswith(".deb")]
-            if not debs:
-                continue
-            sums = None
-            for asset in debs:
-                m = re.search(r"-linux-([a-z0-9_]+)\.deb$", asset["name"])
-                arch = ASSET_ARCH.get(m.group(1), m.group(1)) if m else None
-                if self.a.arch and arch not in self.a.arch:
+            url = asset["browser_download_url"]
+            if self.remote:
+                path = url.removeprefix(DEB_HOST)
+                if path == url:
+                    raise ValueError(f"{url} is not below {DEB_HOST}")
+                if path in self.cache:
                     continue
+            else:
                 pkgdir = self.pool / repo[0].lower() / repo
                 pkgdir.mkdir(parents=True, exist_ok=True)
                 dest = pkgdir / asset["name"]
                 if dest.exists():
                     continue
-                expected = (asset.get("digest") or "").removeprefix("sha256:") or None
-                if not expected:
-                    if sums is None:
-                        sums = checksums_from_sumsfile(rel["assets"])
-                    expected = sums.get(asset["name"])
-                if not expected and not self.a.allow_unverified:
-                    if asset["name"] not in self.skipped:
-                        log(f"skip {asset['name']}: no published checksum (use --allow-unverified)")
-                    skipped.add(asset["name"])
-                    continue
-                log(f"fetch {repo} {rel['tag_name']} {asset['name']}")
-                download(asset["browser_download_url"], dest, expected)
-        self.skipped = skipped
+            expected = (asset.get("digest") or "").removeprefix("sha256:") or None
+            if not expected:
+                if sums is None:
+                    sums = checksums_from_sumsfile(rel["assets"])
+                expected = sums.get(asset["name"])
+            if not expected and not self.a.allow_unverified:
+                if asset["name"] not in self.skipped:
+                    log(f"skip {asset['name']}: no published checksum (use --allow-unverified)")
+                skipped.add(asset["name"])
+                continue
+            log(f"fetch {repo} {rel['tag_name']} {asset['name']}")
+            if self.remote:
+                with tempfile.TemporaryDirectory() as tmp:
+                    deb = Path(tmp) / asset["name"]
+                    download(url, deb, expected)
+                    self.cache[path] = deb_meta(deb)
+            else:
+                download(url, dest, expected)
 
     # -- indexing ---------------------------------------------------------
 
     def scan(self):
         """Return [(pool path, metadata)] for every .deb in the pool, using a size/mtime cache."""
+        if self.remote:
+            return sorted(self.cache.items())
         entries, new_cache = [], {}
         for deb in sorted(self.pool.rglob("*.deb")):
             rel = deb.relative_to(self.out).as_posix()
@@ -175,18 +220,16 @@ class Mirror:
             key = f"{st.st_size}:{int(st.st_mtime)}"
             c = self.cache.get(rel)
             if not c or c["key"] != key:
-                c = {
-                    "key": key,
-                    "control": deb_control(deb),
-                    "size": st.st_size,
-                    "md5": sha256_file(deb, "md5"),
-                    "sha1": sha256_file(deb, "sha1"),
-                    "sha256": sha256_file(deb),
-                }
+                c = {"key": key, **deb_meta(deb)}
             new_cache[rel] = c
             entries.append((rel, c))
         self.cache = new_cache
         return entries
+
+    def drop(self, rel):
+        if not self.remote:
+            (self.out / rel).unlink(missing_ok=True)
+        self.cache.pop(rel, None)
 
     def prune(self, entries):
         """Keep only the newest --keep versions per (package, architecture), and only --arch."""
@@ -195,8 +238,7 @@ class Mirror:
             k = (control_field(c["control"], "Package"), control_field(c["control"], "Architecture"))
             if self.a.arch and k[1] not in self.a.arch and k[1] != "all":
                 log(f"prune {rel} (architecture {k[1]} not selected)")
-                (self.out / rel).unlink(missing_ok=True)
-                self.cache.pop(rel, None)
+                self.drop(rel)
                 continue
             groups.setdefault(k, []).append((rel, c))
         kept = []
@@ -207,8 +249,7 @@ class Mirror:
             kept += items[: self.a.keep]
             for rel, _ in items[self.a.keep:]:
                 log(f"prune {rel}")
-                (self.out / rel).unlink(missing_ok=True)
-                self.cache.pop(rel, None)
+                self.drop(rel)
         return kept
 
     def publish(self, entries):
@@ -222,7 +263,7 @@ class Mirror:
         stamp = self.state / f"published-{suite}.sha256"
         fingerprint = hashlib.sha256(json.dumps([
             sorted((rel, c["sha256"]) for rel, c in entries), archs,
-            self.a.org, self.a.origin, self.a.gpg_key,
+            self.a.org, self.a.origin, self.a.gpg_key, self.remote,
         ]).encode()).hexdigest()
         published = (self.out / "dists" / suite).exists() or not archs
         if published and stamp.exists() and stamp.read_text() == fingerprint:
@@ -293,6 +334,10 @@ class Mirror:
         shutil.rmtree(staging)
         if old:
             shutil.rmtree(old)
+        if self.remote:
+            # Index files from where --out is served, .debs from their GitHub releases
+            (self.out / "mirrors.txt").write_text(
+                f"{self.remote.rstrip('/')}/\ttype:index\n{DEB_HOST}\ttype:deb\n")
         stamp.write_text(fingerprint)
         log(f"published {sum(len(v) for v in by_arch.values())} packages for {', '.join(archs)}")
 
@@ -301,8 +346,9 @@ class Mirror:
             self.sync()
         entries = self.prune(self.scan())
         self.publish(entries)
-        self.cache_file.write_text(json.dumps(self.cache, indent=1))
+        self.cache_file.write_text(json.dumps(self.cache, indent=1, sort_keys=True) + "\n")
         self.skipped_file.write_text(json.dumps(sorted(self.skipped)))
+        return 1 if self.failed else 0
 
 
 def main():
@@ -320,7 +366,10 @@ def main():
     p.add_argument("--gpg-key", help="key ID/fingerprint used to sign the Release file")
     p.add_argument("--no-fetch", action="store_true", help="only rebuild the indexes from the pool")
     p.add_argument("--allow-unverified", action="store_true", help="accept assets without a published SHA-256")
-    Mirror(p.parse_args()).run()
+    p.add_argument("--remote-debs", metavar="URL",
+                   help="don't store .debs, send clients to GitHub for them; URL is where --out is served")
+    p.add_argument("--state", help="directory for the package metadata (default: OUT/.state)")
+    sys.exit(Mirror(p.parse_args()).run())
 
 
 if __name__ == "__main__":
