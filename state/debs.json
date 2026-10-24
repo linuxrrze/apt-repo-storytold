@@ -881,6 +881,27 @@
   "sha256": "5717da29ed89ddd8790816b084aae83176cd4ec72e2330553c5390af46740524",
   "size": 86828466
  },
+ "storytold/photocraft/releases/download/v0.15.1/photocraft-0.15.1-linux-aarch64.deb": {
+  "control": "Package: photocraft\nVersion: 0.15.1-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: PhotoCraft maintainers <photocraft@storyteller.ai>\nInstalled-Size: 149807\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/photocraft\nDescription: Open-source, native image editor with familiar, professional tools.\n Layers, masks, adjustment layers, layer styles, type and brushes; opens and\n saves layered PSD/PSB files; 8/16/32-bit documents; GPU compositing (wgpu).\n Includes photocraft-cli, a headless converter and command runner.",
+  "md5": "bb8123f8db5ca92162524c85cd21552f",
+  "sha1": "9859c8392c6de4f4484162e62135603dac9c3cb1",
+  "sha256": "f8c9c185ed0fd61b82026fa65abd991256b65ed65cb2c889ba3a86f0abbd25e2",
+  "size": 83545978
+ },
+ "storytold/photocraft/releases/download/v0.15.1/photocraft-0.15.1-linux-riscv64.deb": {
+  "control": "Package: photocraft\nVersion: 0.15.1-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: PhotoCraft maintainers <photocraft@storyteller.ai>\nInstalled-Size: 148266\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/photocraft\nDescription: Open-source, native image editor with familiar, professional tools.\n Layers, masks, adjustment layers, layer styles, type and brushes; opens and\n saves layered PSD/PSB files; 8/16/32-bit documents; GPU compositing (wgpu).\n Includes photocraft-cli, a headless converter and command runner.",
+  "md5": "0ce8722a52b3992cb4a1224f009436b2",
+  "sha1": "5c9bf134d3704a98caf7be40be900c41f777ec66",
+  "sha256": "626496720dc8ee7eaf4582f88074e4022d8485e132f8d887c13aff7ea24e246f",
+  "size": 84579282
+ },
+ "storytold/photocraft/releases/download/v0.15.1/photocraft-0.15.1-linux-x86_64.deb": {
+  "control": "Package: photocraft\nVersion: 0.15.1-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: PhotoCraft maintainers <photocraft@storyteller.ai>\nInstalled-Size: 168165\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/photocraft\nDescription: Open-source, native image editor with familiar, professional tools.\n Layers, masks, adjustment layers, layer styles, type and brushes; opens and\n saves layered PSD/PSB files; 8/16/32-bit documents; GPU compositing (wgpu).\n Includes photocraft-cli, a headless converter and command runner.",
+  "md5": "9dcf0166dd5e0a83cd168d139d3ae74c",
+  "sha1": "615334dd8968404b340ca104bff682e2142889e3",
+  "sha256": "28eb2b4133240374a96184f983e51b9759656f6ba467cbef528e999b701fd8f3",
+  "size": 87087774
+ },
  "storytold/soundcraft/releases/download/v0.10.0/soundcraft-0.10.0-linux-aarch64.deb": {
   "control": "Package: soundcraft\nVersion: 0.10.0-1\nSection: sound\nPriority: optional\nArchitecture: arm64\nMaintainer: SoundCraft maintainers <soundcraft@storyteller.ai>\nInstalled-Size: 34745\nDepends: libc6 (>= 2.35), libgcc-s1, libasound2 | libasound2t64, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal, pipewire-alsa | pulseaudio\nHomepage: https://getartcraft.com/apps/soundcraft\nDescription: Open-source, native digital audio workstation. Record, edit and mix\n multitrack audio and MIDI in Edit and Mix windows; built-in EQ, dynamics,\n reverb, delay and instruments; imports WAV, AIFF, FLAC, MP3 and MIDI.\n Includes soundcraft-cli, a headless editor, bounce tool and MCP server.",
   "md5": "b7730651676490e72bb20b8ea5937d26",
