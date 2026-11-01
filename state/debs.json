@@ -118,6 +118,27 @@
   "sha256": "5a906f74801cf64381b1513666b9e3fc225d9c658a3d4cdbcb2727e0e9e204b0",
   "size": 36445750
  },
+ "storytold/craft-anything/releases/download/v0.2.0/craft-anything-0.2.0-linux-aarch64.deb": {
+  "control": "Package: craft-anything\nVersion: 0.2.0-1\nSection: devel\nPriority: optional\nArchitecture: arm64\nMaintainer: Craft Anything maintainers <craft-anything@storyteller.ai>\nInstalled-Size: 114926\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/craft-anything\nDescription: Find out how any software works, then craft your own.\n Evidence-backed answers about programs, apps, files, websites and phones\n (executables, archives, web bundles, Android packages, WebAssembly), from a\n native desktop app, a CLI and an MCP server.",
+  "md5": "a453643d51cb3a31073705ca75d0fe17",
+  "sha1": "2bc5a13933905d97f8f608da3399d8cdab3b0f9f",
+  "sha256": "c25094ea6699eef860ef992e9eec2eb5d2139528c9a2309159abc0ef9472a347",
+  "size": 65378442
+ },
+ "storytold/craft-anything/releases/download/v0.2.0/craft-anything-0.2.0-linux-riscv64.deb": {
+  "control": "Package: craft-anything\nVersion: 0.2.0-1\nSection: devel\nPriority: optional\nArchitecture: riscv64\nMaintainer: Craft Anything maintainers <craft-anything@storyteller.ai>\nInstalled-Size: 113969\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/craft-anything\nDescription: Find out how any software works, then craft your own.\n Evidence-backed answers about programs, apps, files, websites and phones\n (executables, archives, web bundles, Android packages, WebAssembly), from a\n native desktop app, a CLI and an MCP server.",
+  "md5": "d348802b91bc8b60fcaaf169f0a76be7",
+  "sha1": "3063808a0ba5003bbe76b10e84b1e30644c345be",
+  "sha256": "b26eaa392fa2eeefcb0bc8610119b5fd6d5aa018b1eb0847b11f4c0d5a6f2884",
+  "size": 66162364
+ },
+ "storytold/craft-anything/releases/download/v0.2.0/craft-anything-0.2.0-linux-x86_64.deb": {
+  "control": "Package: craft-anything\nVersion: 0.2.0-1\nSection: devel\nPriority: optional\nArchitecture: amd64\nMaintainer: Craft Anything maintainers <craft-anything@storyteller.ai>\nInstalled-Size: 127452\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/craft-anything\nDescription: Find out how any software works, then craft your own.\n Evidence-backed answers about programs, apps, files, websites and phones\n (executables, archives, web bundles, Android packages, WebAssembly), from a\n native desktop app, a CLI and an MCP server.",
+  "md5": "dd81fd9f3213a69f00f826a9b21841cc",
+  "sha1": "58b3b43617e7eab534132e962db0016fa2ce43ca",
+  "sha256": "76b8060a73be63f0e78f16761f0f01f168e41628dbec8e80666d153ec73fd323",
+  "size": 67340548
+ },
  "storytold/craft-launcher/releases/download/v0.10.0/artcraft-launcher-0.10.0-linux-aarch64.deb": {
   "control": "Package: artcraft-launcher\nVersion: 0.10.0-1\nSection: utils\nPriority: optional\nArchitecture: arm64\nMaintainer: ArtCraft Launcher maintainers <craft-launcher@storyteller.ai>\nInstalled-Size: 26530\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://github.com/storytold/craft-launcher\nDescription: Install, update and launch the Craft App Suite.\n ArtCraft Launcher lists PhotoCraft, LightCraft, FilmCraft, DesignCraft,\n VectorCraft, PdfCraft, EffectCraft, WordCraft, DeckCraft, GridCraft, CADCraft,\n SoundCraft and FigCraft, installs the right build for this computer and keeps\n them up to date from GitHub releases. It can live in the system tray.",
   "md5": "27418b553360b5cfa381a22b0fb0ff55",
