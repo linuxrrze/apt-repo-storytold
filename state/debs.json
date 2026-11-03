@@ -1,25 +1,4 @@
 {
- "storytold/cadcraft/releases/download/v0.12.0/cadcraft-0.12.0-linux-aarch64.deb": {
-  "control": "Package: cadcraft\nVersion: 0.12.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: CADCraft maintainers <cadcraft@storyteller.ai>\nInstalled-Size: 112227\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/cadcraft\nDescription: Open-source computer-aided design and drafting: draft, dimension and plot 2D\n drawings with a familiar command line, object snaps, layers, dimensions, hatches\n and blocks. Opens and saves DXF and DWG; exports SVG and PNG.\n Includes cadcraft-cli, a headless converter and command runner.",
-  "md5": "44aac1b5bb41909853fdfbff84c01e0e",
-  "sha1": "ac0e062739e02a9cfc818e824e686adddd248cd4",
-  "sha256": "dbadffe1e97cfc3062159a7eefe3f43ff98761711f675c0cf3747a645053ad4e",
-  "size": 60241756
- },
- "storytold/cadcraft/releases/download/v0.12.0/cadcraft-0.12.0-linux-riscv64.deb": {
-  "control": "Package: cadcraft\nVersion: 0.12.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: CADCraft maintainers <cadcraft@storyteller.ai>\nInstalled-Size: 110790\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/cadcraft\nDescription: Open-source computer-aided design and drafting: draft, dimension and plot 2D\n drawings with a familiar command line, object snaps, layers, dimensions, hatches\n and blocks. Opens and saves DXF and DWG; exports SVG and PNG.\n Includes cadcraft-cli, a headless converter and command runner.",
-  "md5": "a60189fd8fd0e5a7d26faf81ba838979",
-  "sha1": "b28151779bde7ee014361fef83e58823d26601f8",
-  "sha256": "9ea736059e4d2f4324cf61b5aa41e12b174cbe3d5c707c48b414413f64243504",
-  "size": 61006258
- },
- "storytold/cadcraft/releases/download/v0.12.0/cadcraft-0.12.0-linux-x86_64.deb": {
-  "control": "Package: cadcraft\nVersion: 0.12.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: CADCraft maintainers <cadcraft@storyteller.ai>\nInstalled-Size: 122798\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/cadcraft\nDescription: Open-source computer-aided design and drafting: draft, dimension and plot 2D\n drawings with a familiar command line, object snaps, layers, dimensions, hatches\n and blocks. Opens and saves DXF and DWG; exports SVG and PNG.\n Includes cadcraft-cli, a headless converter and command runner.",
-  "md5": "ebaa37c1f42daf5b2b88cd3ca9c6f81b",
-  "sha1": "b21a75cdfccdf818204ff1da3ae2c58e3a58537e",
-  "sha256": "239ddb98a0fd4fa97e62c53de93a5aa286b93d88c328776a4d09b539390c92dd",
-  "size": 62014466
- },
  "storytold/cadcraft/releases/download/v0.13.0/cadcraft-0.13.0-linux-aarch64.deb": {
   "control": "Package: cadcraft\nVersion: 0.13.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: CADCraft maintainers <cadcraft@storyteller.ai>\nInstalled-Size: 120572\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/cadcraft\nDescription: Open-source computer-aided design and drafting: draft, dimension and plot 2D\n drawings with a familiar command line, object snaps, layers, dimensions, hatches\n and blocks. Opens and saves DXF and DWG; exports SVG and PNG.\n Includes cadcraft-cli, a headless converter and command runner.",
   "md5": "bfa078c5688e60105a0b8fce9407df90",
@@ -103,6 +82,27 @@
   "sha1": "13940dfb4b0b6e10c4cc14787d54c6b0f06d31db",
   "sha256": "20da17665a1fb9478798981e1369aaea4258cd513adffe6d102324e01954be6b",
   "size": 73192234
+ },
+ "storytold/cadcraft/releases/download/v0.17.0/cadcraft-0.17.0-linux-aarch64.deb": {
+  "control": "Package: cadcraft\nVersion: 0.17.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: CADCraft maintainers <cadcraft@storyteller.ai>\nInstalled-Size: 137448\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/cadcraft\nDescription: Open-source computer-aided design and drafting: draft, dimension and plot 2D\n drawings with a familiar command line, object snaps, layers, dimensions, hatches\n and blocks. Opens and saves DXF and DWG; exports SVG and PNG.\n Includes cadcraft-cli, a headless converter and command runner.",
+  "md5": "d069f5d140238b4ea5f2966d0374fe35",
+  "sha1": "e3ad95d630d5cfdd3d6c177567ac41c82c80642c",
+  "sha256": "4e05402fb2edb0fe956d4eff39c43ded25749626bfc4c8be835743c5719533da",
+  "size": 71994734
+ },
+ "storytold/cadcraft/releases/download/v0.17.0/cadcraft-0.17.0-linux-riscv64.deb": {
+  "control": "Package: cadcraft\nVersion: 0.17.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: CADCraft maintainers <cadcraft@storyteller.ai>\nInstalled-Size: 134992\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/cadcraft\nDescription: Open-source computer-aided design and drafting: draft, dimension and plot 2D\n drawings with a familiar command line, object snaps, layers, dimensions, hatches\n and blocks. Opens and saves DXF and DWG; exports SVG and PNG.\n Includes cadcraft-cli, a headless converter and command runner.",
+  "md5": "98e62ab539352d12a84058a4c66e4a1b",
+  "sha1": "ca27338827b7d10460172e1c92038da0074b7963",
+  "sha256": "a45e3ca585f019ebf61d10ef2c93ad9336519ba5595e54d62b3d81eb2f9e2a66",
+  "size": 72593550
+ },
+ "storytold/cadcraft/releases/download/v0.17.0/cadcraft-0.17.0-linux-x86_64.deb": {
+  "control": "Package: cadcraft\nVersion: 0.17.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: CADCraft maintainers <cadcraft@storyteller.ai>\nInstalled-Size: 150387\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/cadcraft\nDescription: Open-source computer-aided design and drafting: draft, dimension and plot 2D\n drawings with a familiar command line, object snaps, layers, dimensions, hatches\n and blocks. Opens and saves DXF and DWG; exports SVG and PNG.\n Includes cadcraft-cli, a headless converter and command runner.",
+  "md5": "c8b17f61d300dabe60c132b7f4e4bfbc",
+  "sha1": "698cc035656af91c3ba49fabd9e97f111fa3468f",
+  "sha256": "da482672e54090fe9ac612546b6de566157cef354451c820b9a2f4b5c984b905",
+  "size": 74129394
  },
  "storytold/craft-anything/releases/download/v0.1.0/craft-anything-0.1.0-linux-aarch64.deb": {
   "control": "Package: craft-anything\nVersion: 0.1.0-1\nSection: devel\nPriority: optional\nArchitecture: arm64\nMaintainer: Craft Anything maintainers <craft-anything@storyteller.ai>\nInstalled-Size: 69717\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/craft-anything\nDescription: Find out how any software works, then craft your own.\n Evidence-backed answers about programs, apps, files, websites and phones\n (executables, archives, web bundles, Android packages, WebAssembly), from a\n native desktop app, a CLI and an MCP server.",
@@ -244,47 +244,26 @@
   "sha256": "2eaf59480969c5accb8752c056e2c36c6627068cbb3a911f48fbbdbacf386233",
   "size": 13745162
  },
- "storytold/craft-launcher/releases/download/v0.9.0/artcraft-launcher-0.9.0-linux-aarch64.deb": {
-  "control": "Package: artcraft-launcher\nVersion: 0.9.0-1\nSection: utils\nPriority: optional\nArchitecture: arm64\nMaintainer: ArtCraft Launcher maintainers <craft-launcher@storyteller.ai>\nInstalled-Size: 26374\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://github.com/storytold/craft-launcher\nDescription: Install, update and launch the Craft App Suite.\n ArtCraft Launcher lists PhotoCraft, LightCraft, FilmCraft, DesignCraft,\n VectorCraft, PdfCraft, EffectCraft, WordCraft, DeckCraft, GridCraft, CADCraft,\n SoundCraft and FigCraft, installs the right build for this computer and keeps\n them up to date from GitHub releases. It can live in the system tray.",
-  "md5": "40c33900ae8066b2a7e16f20936d3644",
-  "sha1": "ba481ecbbc3c441b2c4363a6fc3a497dccae2d20",
-  "sha256": "1cb9cf4e2460415fbba2c4d0ec5c2d7cd4af3ccdd686a9bdbc8ecb3bbbe4651a",
-  "size": 13057290
+ "storytold/craft-launcher/releases/download/v0.14.0/artcraft-launcher-0.14.0-linux-aarch64.deb": {
+  "control": "Package: artcraft-launcher\nVersion: 0.14.0-1\nSection: utils\nPriority: optional\nArchitecture: arm64\nMaintainer: ArtCraft Launcher maintainers <craft-launcher@storyteller.ai>\nInstalled-Size: 26685\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://github.com/storytold/craft-launcher\nDescription: Install, update and launch the Craft App Suite.\n ArtCraft Launcher lists PhotoCraft, LightCraft, FilmCraft, DesignCraft,\n VectorCraft, PdfCraft, EffectCraft, WordCraft, DeckCraft, GridCraft, CADCraft,\n SoundCraft and FigCraft, installs the right build for this computer and keeps\n them up to date from GitHub releases. It can live in the system tray.",
+  "md5": "8637dff9406695f0198cecc99b2603b3",
+  "sha1": "6a106581ed264858abcb94ddaa6ce9c544a3ea29",
+  "sha256": "4c794ce8c4afb531a84a402657836320c1c905b120720314632ace39f024e429",
+  "size": 13218762
  },
- "storytold/craft-launcher/releases/download/v0.9.0/artcraft-launcher-0.9.0-linux-riscv64.deb": {
-  "control": "Package: artcraft-launcher\nVersion: 0.9.0-1\nSection: utils\nPriority: optional\nArchitecture: riscv64\nMaintainer: ArtCraft Launcher maintainers <craft-launcher@storyteller.ai>\nInstalled-Size: 26085\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://github.com/storytold/craft-launcher\nDescription: Install, update and launch the Craft App Suite.\n ArtCraft Launcher lists PhotoCraft, LightCraft, FilmCraft, DesignCraft,\n VectorCraft, PdfCraft, EffectCraft, WordCraft, DeckCraft, GridCraft, CADCraft,\n SoundCraft and FigCraft, installs the right build for this computer and keeps\n them up to date from GitHub releases. It can live in the system tray.",
-  "md5": "4156ab884a9b69576dc40ca70aefcfce",
-  "sha1": "86ed58be80e9791342b86c9c3f84e7e6871b2956",
-  "sha256": "985a3affa79e7a44c3b1f60d65141df978d9c89dda9db4063c23fb7db436866e",
-  "size": 13507420
+ "storytold/craft-launcher/releases/download/v0.14.0/artcraft-launcher-0.14.0-linux-riscv64.deb": {
+  "control": "Package: artcraft-launcher\nVersion: 0.14.0-1\nSection: utils\nPriority: optional\nArchitecture: riscv64\nMaintainer: ArtCraft Launcher maintainers <craft-launcher@storyteller.ai>\nInstalled-Size: 26368\nDepends: libc6 (>= 2.39), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://github.com/storytold/craft-launcher\nDescription: Install, update and launch the Craft App Suite.\n ArtCraft Launcher lists PhotoCraft, LightCraft, FilmCraft, DesignCraft,\n VectorCraft, PdfCraft, EffectCraft, WordCraft, DeckCraft, GridCraft, CADCraft,\n SoundCraft and FigCraft, installs the right build for this computer and keeps\n them up to date from GitHub releases. It can live in the system tray.",
+  "md5": "02350ff412656c9af665bfbf1d8651bb",
+  "sha1": "a8588d896c78122edb47cfe3fd3037665ef52b5a",
+  "sha256": "8791a7dff29755204bd3813676c14410445d5856de25acce4575838c6a60e574",
+  "size": 13667330
  },
- "storytold/craft-launcher/releases/download/v0.9.0/artcraft-launcher-0.9.0-linux-x86_64.deb": {
-  "control": "Package: artcraft-launcher\nVersion: 0.9.0-1\nSection: utils\nPriority: optional\nArchitecture: amd64\nMaintainer: ArtCraft Launcher maintainers <craft-launcher@storyteller.ai>\nInstalled-Size: 29664\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://github.com/storytold/craft-launcher\nDescription: Install, update and launch the Craft App Suite.\n ArtCraft Launcher lists PhotoCraft, LightCraft, FilmCraft, DesignCraft,\n VectorCraft, PdfCraft, EffectCraft, WordCraft, DeckCraft, GridCraft, CADCraft,\n SoundCraft and FigCraft, installs the right build for this computer and keeps\n them up to date from GitHub releases. It can live in the system tray.",
-  "md5": "6ca80a721cc1302d399651d55dcd8ba5",
-  "sha1": "1fcdae403ac523f3a6fc744de91d03e1c0392df1",
-  "sha256": "94e7e8c30ec9d50e7c2cf6df32f47dbb9f2863edde923d4ae9e8bbc54da47eb0",
-  "size": 13587396
- },
- "storytold/deckcraft/releases/download/v0.10.0/deckcraft-0.10.0-linux-aarch64.deb": {
-  "control": "Package: deckcraft\nVersion: 0.10.0-1\nSection: editors\nPriority: optional\nArchitecture: arm64\nMaintainer: DeckCraft maintainers <deckcraft@storyteller.ai>\nInstalled-Size: 153340\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libasound2 | libasound2t64, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/deckcraft\nDescription: Open-source, native presentation app that works the way PowerPoint users\n expect. Themes, layouts, shapes, pictures, tables, charts, transitions and\n animations; opens and saves PowerPoint (.pptx) files; full-screen slide show\n with presenter view; GPU rendering (wgpu).\n Includes deckcraft-cli, a headless renderer and command runner.",
-  "md5": "88be5f6e764d074c7cdb6597dba862c0",
-  "sha1": "79931b080c4e4381a71418682e17b8845c9163dc",
-  "sha256": "58752c572f93d967cfeb4f2fd6d1632ac9fe5bfdef797f2651bf24d0fd6b3834",
-  "size": 80484998
- },
- "storytold/deckcraft/releases/download/v0.10.0/deckcraft-0.10.0-linux-riscv64.deb": {
-  "control": "Package: deckcraft\nVersion: 0.10.0-1\nSection: editors\nPriority: optional\nArchitecture: riscv64\nMaintainer: DeckCraft maintainers <deckcraft@storyteller.ai>\nInstalled-Size: 151372\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libasound2 | libasound2t64, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/deckcraft\nDescription: Open-source, native presentation app that works the way PowerPoint users\n expect. Themes, layouts, shapes, pictures, tables, charts, transitions and\n animations; opens and saves PowerPoint (.pptx) files; full-screen slide show\n with presenter view; GPU rendering (wgpu).\n Includes deckcraft-cli, a headless renderer and command runner.",
-  "md5": "470035090cb948b2d5e8b0b891079e38",
-  "sha1": "d13f18e2a112634215157089c0788c5b033695b0",
-  "sha256": "034e64e923518ae26c5635b9a0c13d1e25853a528b3687ef6d9363fc34a8ef08",
-  "size": 81342068
- },
- "storytold/deckcraft/releases/download/v0.10.0/deckcraft-0.10.0-linux-x86_64.deb": {
-  "control": "Package: deckcraft\nVersion: 0.10.0-1\nSection: editors\nPriority: optional\nArchitecture: amd64\nMaintainer: DeckCraft maintainers <deckcraft@storyteller.ai>\nInstalled-Size: 164208\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libasound2 | libasound2t64, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/deckcraft\nDescription: Open-source, native presentation app that works the way PowerPoint users\n expect. Themes, layouts, shapes, pictures, tables, charts, transitions and\n animations; opens and saves PowerPoint (.pptx) files; full-screen slide show\n with presenter view; GPU rendering (wgpu).\n Includes deckcraft-cli, a headless renderer and command runner.",
-  "md5": "f0e6a1ff7ac8be2f8549cf33bd8df39c",
-  "sha1": "f489a55a52dbbf41c5b2efdd72885930d22b427f",
-  "sha256": "e899616ded007a5f2a4cc535469a1339df4217e3e4df87d181c8e4283771ed08",
-  "size": 82460234
+ "storytold/craft-launcher/releases/download/v0.14.0/artcraft-launcher-0.14.0-linux-x86_64.deb": {
+  "control": "Package: artcraft-launcher\nVersion: 0.14.0-1\nSection: utils\nPriority: optional\nArchitecture: amd64\nMaintainer: ArtCraft Launcher maintainers <craft-launcher@storyteller.ai>\nInstalled-Size: 30001\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://github.com/storytold/craft-launcher\nDescription: Install, update and launch the Craft App Suite.\n ArtCraft Launcher lists PhotoCraft, LightCraft, FilmCraft, DesignCraft,\n VectorCraft, PdfCraft, EffectCraft, WordCraft, DeckCraft, GridCraft, CADCraft,\n SoundCraft and FigCraft, installs the right build for this computer and keeps\n them up to date from GitHub releases. It can live in the system tray.",
+  "md5": "bdcadffb88e9c188bfdace7a02d9d69e",
+  "sha1": "dec91acbae2466f5323ac9c7c3492852ffe30ed8",
+  "sha256": "58f776f0889e91a4e2162291cee9eb1188706c17e4b839364d929a51859550e0",
+  "size": 13761786
  },
  "storytold/deckcraft/releases/download/v0.11.1/deckcraft-0.11.1-linux-aarch64.deb": {
   "control": "Package: deckcraft\nVersion: 0.11.1-1\nSection: editors\nPriority: optional\nArchitecture: arm64\nMaintainer: DeckCraft maintainers <deckcraft@storyteller.ai>\nInstalled-Size: 154390\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libasound2 | libasound2t64, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/deckcraft\nDescription: Open-source, native presentation app that works the way PowerPoint users\n expect. Themes, layouts, shapes, pictures, tables, charts, transitions and\n animations; opens and saves PowerPoint (.pptx) files; full-screen slide show\n with presenter view; GPU rendering (wgpu).\n Includes deckcraft-cli, a headless renderer and command runner.",
@@ -370,26 +349,26 @@
   "sha256": "d17ffd935f8ae3c8e9790648a00d4d019f11b52bf5db207ec6e4d466a108ec2f",
   "size": 104861456
  },
- "storytold/designcraft/releases/download/v0.12.0/designcraft-0.12.0-linux-aarch64.deb": {
-  "control": "Package: designcraft\nVersion: 0.12.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: DesignCraft maintainers <designcraft@storyteller.ai>\nInstalled-Size: 155035\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/designcraft\nDescription: Open-source, native page layout and publishing that works the way InDesign users expect.\n Spreads and parent pages, threaded text frames, paragraph and character styles, swatches,\n text wrap and a Knuth-Plass paragraph composer; IDML import and export.\n Includes designcraft-cli, a headless renderer and command runner.",
-  "md5": "c72cca1ad7970bd559afa9e2ad7d060c",
-  "sha1": "a92a5fc4190953f528dd1d9bff6413c72bd7565e",
-  "sha256": "8f59794db2e6b5b57d69c27e3659bd788d11d815fdd9e07616824e9c5044f3d8",
-  "size": 80101094
+ "storytold/deckcraft/releases/download/v0.15.0/deckcraft-0.15.0-linux-aarch64.deb": {
+  "control": "Package: deckcraft\nVersion: 0.15.0-1\nSection: editors\nPriority: optional\nArchitecture: arm64\nMaintainer: DeckCraft maintainers <deckcraft@storyteller.ai>\nInstalled-Size: 194655\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libasound2 | libasound2t64, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/deckcraft\nDescription: Open-source, native presentation app that works the way PowerPoint users\n expect. Themes, layouts, shapes, pictures, tables, charts, transitions and\n animations; opens and saves PowerPoint (.pptx) files; full-screen slide show\n with presenter view; GPU rendering (wgpu).\n Includes deckcraft-cli, a headless renderer and command runner.",
+  "md5": "261cc4bbeb97cc44b320844f949cad69",
+  "sha1": "27885b9c389999e48828b4dd39b63bbd6ebb5884",
+  "sha256": "5df3e46a51426e472515b2fd79d5246bbe671c565cf077b781a761153b6f3688",
+  "size": 103101326
  },
- "storytold/designcraft/releases/download/v0.12.0/designcraft-0.12.0-linux-riscv64.deb": {
-  "control": "Package: designcraft\nVersion: 0.12.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: DesignCraft maintainers <designcraft@storyteller.ai>\nInstalled-Size: 153327\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/designcraft\nDescription: Open-source, native page layout and publishing that works the way InDesign users expect.\n Spreads and parent pages, threaded text frames, paragraph and character styles, swatches,\n text wrap and a Knuth-Plass paragraph composer; IDML import and export.\n Includes designcraft-cli, a headless renderer and command runner.",
-  "md5": "faad36729c7ccf09da40d458fcefc363",
-  "sha1": "41d5d2cc2dede61b84b02bb65c17f28a9f9f743b",
-  "sha256": "cb9cc578aa8ccce79a87a37a92daf32278d69bea811cc6dca5792ce630348ab3",
-  "size": 81287688
+ "storytold/deckcraft/releases/download/v0.15.0/deckcraft-0.15.0-linux-riscv64.deb": {
+  "control": "Package: deckcraft\nVersion: 0.15.0-1\nSection: editors\nPriority: optional\nArchitecture: riscv64\nMaintainer: DeckCraft maintainers <deckcraft@storyteller.ai>\nInstalled-Size: 192423\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libasound2 | libasound2t64, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/deckcraft\nDescription: Open-source, native presentation app that works the way PowerPoint users\n expect. Themes, layouts, shapes, pictures, tables, charts, transitions and\n animations; opens and saves PowerPoint (.pptx) files; full-screen slide show\n with presenter view; GPU rendering (wgpu).\n Includes deckcraft-cli, a headless renderer and command runner.",
+  "md5": "352fa9aeccf495136c7c1eb7865f98ac",
+  "sha1": "ec1f07ccb298468a328177fed38f6c20b66f8023",
+  "sha256": "bbbd8a0861e8f2db5905a7ac13dd2db3723df1f281504ad6b01ff78f5891bfbf",
+  "size": 103792684
  },
- "storytold/designcraft/releases/download/v0.12.0/designcraft-0.12.0-linux-x86_64.deb": {
-  "control": "Package: designcraft\nVersion: 0.12.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: DesignCraft maintainers <designcraft@storyteller.ai>\nInstalled-Size: 170037\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/designcraft\nDescription: Open-source, native page layout and publishing that works the way InDesign users expect.\n Spreads and parent pages, threaded text frames, paragraph and character styles, swatches,\n text wrap and a Knuth-Plass paragraph composer; IDML import and export.\n Includes designcraft-cli, a headless renderer and command runner.",
-  "md5": "512e7ee5ca5e7dcb91cb5628aafb3ce7",
-  "sha1": "f96af087b59ed388332f6c701f1d6919e0313307",
-  "sha256": "b040af8d6a4cbcfc3efc062611fed428ab144ce9b88e5081bf047fc5df479e9e",
-  "size": 83029288
+ "storytold/deckcraft/releases/download/v0.15.0/deckcraft-0.15.0-linux-x86_64.deb": {
+  "control": "Package: deckcraft\nVersion: 0.15.0-1\nSection: editors\nPriority: optional\nArchitecture: amd64\nMaintainer: DeckCraft maintainers <deckcraft@storyteller.ai>\nInstalled-Size: 205620\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libasound2 | libasound2t64, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/deckcraft\nDescription: Open-source, native presentation app that works the way PowerPoint users\n expect. Themes, layouts, shapes, pictures, tables, charts, transitions and\n animations; opens and saves PowerPoint (.pptx) files; full-screen slide show\n with presenter view; GPU rendering (wgpu).\n Includes deckcraft-cli, a headless renderer and command runner.",
+  "md5": "5125997bbde92debfb65aa21b36398f8",
+  "sha1": "cbc390071b79bb2022c6382868816e2d1d8d4c53",
+  "sha256": "975f876d85bb96641d0ea5a730e3bc1908a6b93f3021fffb6572bbcb85ebb975",
+  "size": 104858530
  },
  "storytold/designcraft/releases/download/v0.13.0/designcraft-0.13.0-linux-aarch64.deb": {
   "control": "Package: designcraft\nVersion: 0.13.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: DesignCraft maintainers <designcraft@storyteller.ai>\nInstalled-Size: 190716\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/designcraft\nDescription: Open-source, native page layout and publishing that works the way InDesign users expect.\n Spreads and parent pages, threaded text frames, paragraph and character styles, swatches,\n text wrap and a Knuth-Plass paragraph composer; IDML import and export.\n Includes designcraft-cli, a headless renderer and command runner.",
@@ -475,26 +454,26 @@
   "sha256": "ca63189a80c4d2791272f0780b72fab901c0607c7740e642a5f6c2b08128cb25",
   "size": 125420316
  },
- "storytold/effectcraft/releases/download/v0.16.0/effectcraft-0.16.0-linux-aarch64.deb": {
-  "control": "Package: effectcraft\nVersion: 0.16.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: EffectCraft maintainers <effectcraft@storyteller.ai>\nInstalled-Size: 133800\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/effectcraft\nDescription: Open-source motion graphics and visual effects compositor.\n Layers with keyframes and a graph editor, masks and shapes, text animators,\n expressions, 3D cameras and lights, over 300 effects and a render queue\n (H.264, HEVC, AV1, ProRes, WebM, image sequences); GPU compositing (wgpu).\n Includes effectcraft-cli, a headless renderer, command runner and MCP server.",
-  "md5": "ded898992d154e80383c322f003c268c",
-  "sha1": "5be247b39dc286d9aed8eb76459ce1042a336e5a",
-  "sha256": "45ee0c81e3befa126fc8eea638f7fce7d492d17f1ba8990c73298e11691aecd3",
-  "size": 62793998
+ "storytold/designcraft/releases/download/v0.17.0/designcraft-0.17.0-linux-aarch64.deb": {
+  "control": "Package: designcraft\nVersion: 0.17.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: DesignCraft maintainers <designcraft@storyteller.ai>\nInstalled-Size: 218309\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/designcraft\nDescription: Open-source, native page layout and publishing that works the way InDesign users expect.\n Spreads and parent pages, threaded text frames, paragraph and character styles, swatches,\n text wrap and a Knuth-Plass paragraph composer; IDML import and export.\n Includes designcraft-cli, a headless renderer and command runner.",
+  "md5": "31551aecec6331c89facb24d5f6c99ef",
+  "sha1": "dae48d9a6beecadb5cd426e6b670b456b5ec7b96",
+  "sha256": "378b677e20cb78619ecc287af5d379b7bc43d39b2015f1d443540ac7e0328e7d",
+  "size": 122386784
  },
- "storytold/effectcraft/releases/download/v0.16.0/effectcraft-0.16.0-linux-riscv64.deb": {
-  "control": "Package: effectcraft\nVersion: 0.16.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: EffectCraft maintainers <effectcraft@storyteller.ai>\nInstalled-Size: 131780\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/effectcraft\nDescription: Open-source motion graphics and visual effects compositor.\n Layers with keyframes and a graph editor, masks and shapes, text animators,\n expressions, 3D cameras and lights, over 300 effects and a render queue\n (H.264, HEVC, AV1, ProRes, WebM, image sequences); GPU compositing (wgpu).\n Includes effectcraft-cli, a headless renderer, command runner and MCP server.",
-  "md5": "b00406499916729a6238c80ec5a0f97d",
-  "sha1": "446fa7102c4b28de75954c28b99e756941ce7851",
-  "sha256": "ced0631c1a13717e6bc7a629d8e951d51f1582434c1f3d2c61cd5302ac552348",
-  "size": 64041748
+ "storytold/designcraft/releases/download/v0.17.0/designcraft-0.17.0-linux-riscv64.deb": {
+  "control": "Package: designcraft\nVersion: 0.17.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: DesignCraft maintainers <designcraft@storyteller.ai>\nInstalled-Size: 216641\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/designcraft\nDescription: Open-source, native page layout and publishing that works the way InDesign users expect.\n Spreads and parent pages, threaded text frames, paragraph and character styles, swatches,\n text wrap and a Knuth-Plass paragraph composer; IDML import and export.\n Includes designcraft-cli, a headless renderer and command runner.",
+  "md5": "8f5c71da6d1c0a94d3420b4e76d83480",
+  "sha1": "9632de6ce5a32f22c6e2a59f25c2b5cf6db646e3",
+  "sha256": "1fd2af2d267a135b858ab0fe00e6b10f2195420aeae898872a632f7ba678bcf3",
+  "size": 123437206
  },
- "storytold/effectcraft/releases/download/v0.16.0/effectcraft-0.16.0-linux-x86_64.deb": {
-  "control": "Package: effectcraft\nVersion: 0.16.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: EffectCraft maintainers <effectcraft@storyteller.ai>\nInstalled-Size: 154023\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/effectcraft\nDescription: Open-source motion graphics and visual effects compositor.\n Layers with keyframes and a graph editor, masks and shapes, text animators,\n expressions, 3D cameras and lights, over 300 effects and a render queue\n (H.264, HEVC, AV1, ProRes, WebM, image sequences); GPU compositing (wgpu).\n Includes effectcraft-cli, a headless renderer, command runner and MCP server.",
-  "md5": "61051e43cadf9e0d15429123f5afaebd",
-  "sha1": "6d5eb372f28b2bf1ea65a616fd55ce5c0b70eba1",
-  "sha256": "fcc80df074673dffaabc8417a677054235a3a4cab18139f44ce98320230f4526",
-  "size": 65747978
+ "storytold/designcraft/releases/download/v0.17.0/designcraft-0.17.0-linux-x86_64.deb": {
+  "control": "Package: designcraft\nVersion: 0.17.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: DesignCraft maintainers <designcraft@storyteller.ai>\nInstalled-Size: 235452\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/designcraft\nDescription: Open-source, native page layout and publishing that works the way InDesign users expect.\n Spreads and parent pages, threaded text frames, paragraph and character styles, swatches,\n text wrap and a Knuth-Plass paragraph composer; IDML import and export.\n Includes designcraft-cli, a headless renderer and command runner.",
+  "md5": "9fc842df0dd9679e7cf31211dbc3496f",
+  "sha1": "2337220f72744d654692cfab54fb67ac4ea2a043",
+  "sha256": "dc204ec4c93718a2b7ac3a6b69127b61f58f87d9f5947f64a1d40931e1407b5a",
+  "size": 125470316
  },
  "storytold/effectcraft/releases/download/v0.17.0/effectcraft-0.17.0-linux-aarch64.deb": {
   "control": "Package: effectcraft\nVersion: 0.17.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: EffectCraft maintainers <effectcraft@storyteller.ai>\nInstalled-Size: 135017\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/effectcraft\nDescription: Open-source motion graphics and visual effects compositor.\n Layers with keyframes and a graph editor, masks and shapes, text animators,\n expressions, 3D cameras and lights, over 300 effects and a render queue\n (H.264, HEVC, AV1, ProRes, WebM, image sequences); GPU compositing (wgpu).\n Includes effectcraft-cli, a headless renderer, command runner and MCP server.",
@@ -580,26 +559,26 @@
   "sha256": "7ace3acb99d8f76dd548275ba55f0195ad6d4ef29fc5a40e660834df9f8ea29c",
   "size": 79511420
  },
- "storytold/figcraft/releases/download/v0.10.0/figcraft-0.10.0-linux-aarch64.deb": {
-  "control": "Package: figcraft\nVersion: 0.10.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: FigCraft maintainers <figcraft@storyteller.ai>\nInstalled-Size: 172445\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/figcraft\nDescription: Open-source, native interface design and prototyping tool.\n Frames, vector shapes and text on an infinite canvas; auto layout and\n constraints; components, variants, styles and variables; interactive\n prototypes with a presentation mode; SVG and PNG export; GPU rendering (wgpu).",
-  "md5": "28bcabd8ee020a716c714ff77970e853",
-  "sha1": "c5d439ef54f4cf372b46c8d128a5bd1f6a717152",
-  "sha256": "e666147aeaa0e734de1956e2700125394edc7256ea8ed2175ae884e38b8494e9",
-  "size": 88012498
+ "storytold/effectcraft/releases/download/v0.21.0/effectcraft-0.21.0-linux-aarch64.deb": {
+  "control": "Package: effectcraft\nVersion: 0.21.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: EffectCraft maintainers <effectcraft@storyteller.ai>\nInstalled-Size: 162637\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/effectcraft\nDescription: Open-source motion graphics and visual effects compositor.\n Layers with keyframes and a graph editor, masks and shapes, text animators,\n expressions, 3D cameras and lights, over 300 effects and a render queue\n (H.264, HEVC, AV1, ProRes, WebM, image sequences); GPU compositing (wgpu).\n Includes effectcraft-cli, a headless renderer, command runner and MCP server.",
+  "md5": "396cec53e886d9c0e3a94ac7bc573a6f",
+  "sha1": "9173d58c0ff661eb1b20bd0ea459feab89786c29",
+  "sha256": "e3de76b87f0775da7c4df11a39bc2ac2c0ddb5a950ea08b7e708bd8b7ec3cc46",
+  "size": 75955424
  },
- "storytold/figcraft/releases/download/v0.10.0/figcraft-0.10.0-linux-riscv64.deb": {
-  "control": "Package: figcraft\nVersion: 0.10.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: FigCraft maintainers <figcraft@storyteller.ai>\nInstalled-Size: 169777\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/figcraft\nDescription: Open-source, native interface design and prototyping tool.\n Frames, vector shapes and text on an infinite canvas; auto layout and\n constraints; components, variants, styles and variables; interactive\n prototypes with a presentation mode; SVG and PNG export; GPU rendering (wgpu).",
-  "md5": "55a65e86d09f277db699c0530759736b",
-  "sha1": "dad98a0bb44386cd4f7896c37736549d883e9f85",
-  "sha256": "224cfca36c22192728e9d481f7683329cf0758cf8c533aa2a5fc4f9bdb686772",
-  "size": 88663688
+ "storytold/effectcraft/releases/download/v0.21.0/effectcraft-0.21.0-linux-riscv64.deb": {
+  "control": "Package: effectcraft\nVersion: 0.21.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: EffectCraft maintainers <effectcraft@storyteller.ai>\nInstalled-Size: 159673\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/effectcraft\nDescription: Open-source motion graphics and visual effects compositor.\n Layers with keyframes and a graph editor, masks and shapes, text animators,\n expressions, 3D cameras and lights, over 300 effects and a render queue\n (H.264, HEVC, AV1, ProRes, WebM, image sequences); GPU compositing (wgpu).\n Includes effectcraft-cli, a headless renderer, command runner and MCP server.",
+  "md5": "295687627ca15939d36531b16ea2c551",
+  "sha1": "ff1d259493ef80756942cb65fac5c92ee54533f7",
+  "sha256": "c292bd1db13f903bfdb610c461e301d4fe295c5a9d5a7f707b2aba72351703d2",
+  "size": 77130650
  },
- "storytold/figcraft/releases/download/v0.10.0/figcraft-0.10.0-linux-x86_64.deb": {
-  "control": "Package: figcraft\nVersion: 0.10.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: FigCraft maintainers <figcraft@storyteller.ai>\nInstalled-Size: 184933\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/figcraft\nDescription: Open-source, native interface design and prototyping tool.\n Frames, vector shapes and text on an infinite canvas; auto layout and\n constraints; components, variants, styles and variables; interactive\n prototypes with a presentation mode; SVG and PNG export; GPU rendering (wgpu).",
-  "md5": "4a87ba72e1b413c9eccc46404242bc75",
-  "sha1": "cbe5f00e55cdd58ce5954f6b6c4cfde53c1a6c16",
-  "sha256": "ed991473b2795e7ee870308c03c3477090c629ff036bc3102c9ab45ba5db43f9",
-  "size": 90179000
+ "storytold/effectcraft/releases/download/v0.21.0/effectcraft-0.21.0-linux-x86_64.deb": {
+  "control": "Package: effectcraft\nVersion: 0.21.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: EffectCraft maintainers <effectcraft@storyteller.ai>\nInstalled-Size: 188202\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/effectcraft\nDescription: Open-source motion graphics and visual effects compositor.\n Layers with keyframes and a graph editor, masks and shapes, text animators,\n expressions, 3D cameras and lights, over 300 effects and a render queue\n (H.264, HEVC, AV1, ProRes, WebM, image sequences); GPU compositing (wgpu).\n Includes effectcraft-cli, a headless renderer, command runner and MCP server.",
+  "md5": "1816dfc55d679018036b4243ba11bca6",
+  "sha1": "360ca4be55e612a0a2f1ba25a7019c29bf5934e7",
+  "sha256": "6d86d7c5ccd94bb2ebd1abd13cf5c6e2b1f5f7ebd88abfe9c65b67105987ec77",
+  "size": 79728536
  },
  "storytold/figcraft/releases/download/v0.11.2/figcraft-0.11.2-linux-aarch64.deb": {
   "control": "Package: figcraft\nVersion: 0.11.2-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: FigCraft maintainers <figcraft@storyteller.ai>\nInstalled-Size: 173461\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/figcraft\nDescription: Open-source, native interface design and prototyping tool.\n Frames, vector shapes and text on an infinite canvas; auto layout and\n constraints; components, variants, styles and variables; interactive\n prototypes with a presentation mode; SVG and PNG export; GPU rendering (wgpu).",
@@ -685,26 +664,26 @@
   "sha256": "1413e05a6496f896d99e84557d78869050bd34556156210b7d910a8b121ef42f",
   "size": 102876710
  },
- "storytold/filmcraft/releases/download/v0.12.0/filmcraft-0.12.0-linux-aarch64.deb": {
-  "control": "Package: filmcraft\nVersion: 0.12.0-1\nSection: video\nPriority: optional\nArchitecture: arm64\nMaintainer: FilmCraft maintainers <filmcraft@storyteller.ai>\nInstalled-Size: 128381\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/filmcraft\nDescription: Open-source, native video editor: edit video, color and sound.\n Timeline editing with source and program monitors, color grading and scopes,\n effects and keyframes, titles and captions, audio mixing with loudness meters,\n and export; GPU compositing (wgpu).\n Includes filmcraft-cli, a headless command runner, MCP server and exporter.",
-  "md5": "b74fc5cc9e7f4d82fabea1ea8ac700bc",
-  "sha1": "d6ad6f810600042615925624f2c2ea9b385120c6",
-  "sha256": "d9280d726e6fafcac9c5f1f0dcc6a404cb4a390e0fa9fb104ff8d4a3fbe57eaa",
-  "size": 68861024
+ "storytold/figcraft/releases/download/v0.15.0/figcraft-0.15.0-linux-aarch64.deb": {
+  "control": "Package: figcraft\nVersion: 0.15.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: FigCraft maintainers <figcraft@storyteller.ai>\nInstalled-Size: 196296\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/figcraft\nDescription: Open-source, native interface design and prototyping tool.\n Frames, vector shapes and text on an infinite canvas; auto layout and\n constraints; components, variants, styles and variables; interactive\n prototypes with a presentation mode; SVG and PNG export; GPU rendering (wgpu).",
+  "md5": "9b4a352d339d8e0c41685d524dbbfc69",
+  "sha1": "3ecf579823c15dd97769c76c84bdd6347190808c",
+  "sha256": "dfb3f8cdf2afdf20b950034afc12173439af6e9faebf9ed80599430d8ce32dfe",
+  "size": 100415836
  },
- "storytold/filmcraft/releases/download/v0.12.0/filmcraft-0.12.0-linux-riscv64.deb": {
-  "control": "Package: filmcraft\nVersion: 0.12.0-1\nSection: video\nPriority: optional\nArchitecture: riscv64\nMaintainer: FilmCraft maintainers <filmcraft@storyteller.ai>\nInstalled-Size: 126345\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/filmcraft\nDescription: Open-source, native video editor: edit video, color and sound.\n Timeline editing with source and program monitors, color grading and scopes,\n effects and keyframes, titles and captions, audio mixing with loudness meters,\n and export; GPU compositing (wgpu).\n Includes filmcraft-cli, a headless command runner, MCP server and exporter.",
-  "md5": "601dba7c82437a84b5bf0aac07401c48",
-  "sha1": "f336cfa913bb9ae1b3e4dfe0775a5726b72db2be",
-  "sha256": "f007850b0ed1f8214d9c53c71f7c3fbd0c08f63d6743813ac195d9cae49df1ff",
-  "size": 69415262
+ "storytold/figcraft/releases/download/v0.15.0/figcraft-0.15.0-linux-riscv64.deb": {
+  "control": "Package: figcraft\nVersion: 0.15.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: FigCraft maintainers <figcraft@storyteller.ai>\nInstalled-Size: 193088\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/figcraft\nDescription: Open-source, native interface design and prototyping tool.\n Frames, vector shapes and text on an infinite canvas; auto layout and\n constraints; components, variants, styles and variables; interactive\n prototypes with a presentation mode; SVG and PNG export; GPU rendering (wgpu).",
+  "md5": "76d2605248d0044b98bf9c05239db870",
+  "sha1": "9f6e42510ab42c168af2e12f6a1247e3ee421e7e",
+  "sha256": "3dce287d9fc1645caa015cdc40ac17e3787f290711f89953644055cd8e3d96c3",
+  "size": 100858824
  },
- "storytold/filmcraft/releases/download/v0.12.0/filmcraft-0.12.0-linux-x86_64.deb": {
-  "control": "Package: filmcraft\nVersion: 0.12.0-1\nSection: video\nPriority: optional\nArchitecture: amd64\nMaintainer: FilmCraft maintainers <filmcraft@storyteller.ai>\nInstalled-Size: 142091\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/filmcraft\nDescription: Open-source, native video editor: edit video, color and sound.\n Timeline editing with source and program monitors, color grading and scopes,\n effects and keyframes, titles and captions, audio mixing with loudness meters,\n and export; GPU compositing (wgpu).\n Includes filmcraft-cli, a headless command runner, MCP server and exporter.",
-  "md5": "b7988182ad7273c35d3860de57ae0fdf",
-  "sha1": "4f4259cccf90085a83fb6753b009dda849a7b7b3",
-  "sha256": "d8e4a2eea65ba65a81f9ef2a128f104ed3a1e38056fea417e8829731772c2031",
-  "size": 70865376
+ "storytold/figcraft/releases/download/v0.15.0/figcraft-0.15.0-linux-x86_64.deb": {
+  "control": "Package: figcraft\nVersion: 0.15.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: FigCraft maintainers <figcraft@storyteller.ai>\nInstalled-Size: 211127\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/figcraft\nDescription: Open-source, native interface design and prototyping tool.\n Frames, vector shapes and text on an infinite canvas; auto layout and\n constraints; components, variants, styles and variables; interactive\n prototypes with a presentation mode; SVG and PNG export; GPU rendering (wgpu).",
+  "md5": "318646327e2754dd4cf7fb4794c4205e",
+  "sha1": "4ee2db7236b6f736f1c467909755baafb2a80dbb",
+  "sha256": "10f73385ae52fa5fbe863ad91f211380086b7dc93d2640b30446f04123334f89",
+  "size": 102870356
  },
  "storytold/filmcraft/releases/download/v0.13.0/filmcraft-0.13.0-linux-aarch64.deb": {
   "control": "Package: filmcraft\nVersion: 0.13.0-1\nSection: video\nPriority: optional\nArchitecture: arm64\nMaintainer: FilmCraft maintainers <filmcraft@storyteller.ai>\nInstalled-Size: 164355\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/filmcraft\nDescription: Open-source, native video editor: edit video, color and sound.\n Timeline editing with source and program monitors, color grading and scopes,\n effects and keyframes, titles and captions, audio mixing with loudness meters,\n and export; GPU compositing (wgpu).\n Includes filmcraft-cli, a headless command runner, MCP server and exporter.",
@@ -790,26 +769,26 @@
   "sha256": "848fc61bd8c5346aaf57188cc95631258e3387ff3d7ff5e4f55b70ba81918bc1",
   "size": 108946042
  },
- "storytold/gridcraft/releases/download/v0.11.1/gridcraft-0.11.1-linux-aarch64.deb": {
-  "control": "Package: gridcraft\nVersion: 0.11.1-1\nSection: misc\nPriority: optional\nArchitecture: arm64\nMaintainer: GridCraft maintainers <gridcraft@storyteller.ai>\nInstalled-Size: 43263\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/gridcraft\nDescription: Open-source, native spreadsheet that works the way Excel users expect.\n Opens and saves .xlsx workbooks and CSV/TSV files; hundreds of worksheet\n functions; formatting, sorting, filtering and charts.\n Includes gridcraft-cli, a headless evaluator, converter and command runner.",
-  "md5": "b1eeed19d74384e9379a9ba28c10b160",
-  "sha1": "f7128c5964627b2f8057d1c1a7364b1038da276b",
-  "sha256": "65197dd1ba10ad7ec4dd0aa5d629a093460a336862ace4f50d9bcbba0e969915",
-  "size": 19975640
+ "storytold/filmcraft/releases/download/v0.17.0/filmcraft-0.17.0-linux-aarch64.deb": {
+  "control": "Package: filmcraft\nVersion: 0.17.0-1\nSection: video\nPriority: optional\nArchitecture: arm64\nMaintainer: FilmCraft maintainers <filmcraft@storyteller.ai>\nInstalled-Size: 183004\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/filmcraft\nDescription: Open-source, native video editor: edit video, color and sound.\n Timeline editing with source and program monitors, color grading and scopes,\n effects and keyframes, titles and captions, audio mixing with loudness meters,\n and export; GPU compositing (wgpu).\n Includes filmcraft-cli, a headless command runner, MCP server and exporter.",
+  "md5": "d4ecec43aa6a9f1293860a01bf676838",
+  "sha1": "cb22e90ffc73570f972d2751ba4f2c57e7d72bbf",
+  "sha256": "89f0db09e56b17b56a382b735ba0e0a7a1529874396c22570a59dd5206268297",
+  "size": 106764344
  },
- "storytold/gridcraft/releases/download/v0.11.1/gridcraft-0.11.1-linux-riscv64.deb": {
-  "control": "Package: gridcraft\nVersion: 0.11.1-1\nSection: misc\nPriority: optional\nArchitecture: riscv64\nMaintainer: GridCraft maintainers <gridcraft@storyteller.ai>\nInstalled-Size: 41734\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/gridcraft\nDescription: Open-source, native spreadsheet that works the way Excel users expect.\n Opens and saves .xlsx workbooks and CSV/TSV files; hundreds of worksheet\n functions; formatting, sorting, filtering and charts.\n Includes gridcraft-cli, a headless evaluator, converter and command runner.",
-  "md5": "5e938e92cc9c39b603366cfb7faa7e30",
-  "sha1": "b5d64dfd76a22c417f1be1a839702fdf7d0ff9ba",
-  "sha256": "53445de83589548123d2817b4ffa82cb49fc64a03c6cd95cf5614c1f409eb1b7",
-  "size": 20260574
+ "storytold/filmcraft/releases/download/v0.17.0/filmcraft-0.17.0-linux-riscv64.deb": {
+  "control": "Package: filmcraft\nVersion: 0.17.0-1\nSection: video\nPriority: optional\nArchitecture: riscv64\nMaintainer: FilmCraft maintainers <filmcraft@storyteller.ai>\nInstalled-Size: 180931\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/filmcraft\nDescription: Open-source, native video editor: edit video, color and sound.\n Timeline editing with source and program monitors, color grading and scopes,\n effects and keyframes, titles and captions, audio mixing with loudness meters,\n and export; GPU compositing (wgpu).\n Includes filmcraft-cli, a headless command runner, MCP server and exporter.",
+  "md5": "82e462f2661e7c35526f8d5b266de77b",
+  "sha1": "99f9fce5f3dfd2a602521436a3064045029691f1",
+  "sha256": "1ca9ab0952f067a255cc54a121463dbc74f109a56cb1580e7fdd6acb1bfe7af3",
+  "size": 107422564
  },
- "storytold/gridcraft/releases/download/v0.11.1/gridcraft-0.11.1-linux-x86_64.deb": {
-  "control": "Package: gridcraft\nVersion: 0.11.1-1\nSection: misc\nPriority: optional\nArchitecture: amd64\nMaintainer: GridCraft maintainers <gridcraft@storyteller.ai>\nInstalled-Size: 48674\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/gridcraft\nDescription: Open-source, native spreadsheet that works the way Excel users expect.\n Opens and saves .xlsx workbooks and CSV/TSV files; hundreds of worksheet\n functions; formatting, sorting, filtering and charts.\n Includes gridcraft-cli, a headless evaluator, converter and command runner.",
-  "md5": "1b5724d81bcb8f7e7114fe4480b80c45",
-  "sha1": "b4e8e6d28c1f9d7ad00adc1efa528c07a9d15fd3",
-  "sha256": "45afd336d8053dfd152ff9a2914fc269e435d4a347293e9f48c84d9bfef2581e",
-  "size": 21017008
+ "storytold/filmcraft/releases/download/v0.17.0/filmcraft-0.17.0-linux-x86_64.deb": {
+  "control": "Package: filmcraft\nVersion: 0.17.0-1\nSection: video\nPriority: optional\nArchitecture: amd64\nMaintainer: FilmCraft maintainers <filmcraft@storyteller.ai>\nInstalled-Size: 198543\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/filmcraft\nDescription: Open-source, native video editor: edit video, color and sound.\n Timeline editing with source and program monitors, color grading and scopes,\n effects and keyframes, titles and captions, audio mixing with loudness meters,\n and export; GPU compositing (wgpu).\n Includes filmcraft-cli, a headless command runner, MCP server and exporter.",
+  "md5": "9ba9fe366ae3d9e0eb9d2b73bde541a1",
+  "sha1": "7b361bfc9d1cd7534486181c9317b51c8e695d20",
+  "sha256": "70d8d23e235e705db76d934e919597c80addece6beb9a00b421f2f9db8ff5a1f",
+  "size": 109040156
  },
  "storytold/gridcraft/releases/download/v0.12.1/gridcraft-0.12.1-linux-aarch64.deb": {
   "control": "Package: gridcraft\nVersion: 0.12.1-1\nSection: misc\nPriority: optional\nArchitecture: arm64\nMaintainer: GridCraft maintainers <gridcraft@storyteller.ai>\nInstalled-Size: 43883\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/gridcraft\nDescription: Open-source, native spreadsheet that works the way Excel users expect.\n Opens and saves .xlsx workbooks and CSV/TSV files; hundreds of worksheet\n functions; formatting, sorting, filtering and charts.\n Includes gridcraft-cli, a headless evaluator, converter and command runner.",
@@ -895,26 +874,26 @@
   "sha256": "3dc260c37363c7773ac190def4a1cf628723c1c1bb35a297e48745b5f0367578",
   "size": 49904010
  },
- "storytold/lightcraft/releases/download/v0.13.0/lightcraft-0.13.0-linux-aarch64.deb": {
-  "control": "Package: lightcraft\nVersion: 0.13.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: LightCraft maintainers <lightcraft@storyteller.ai>\nInstalled-Size: 195203\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/lightcraft\nDescription: Open-source, native photo library and raw developer that works the way\n Lightroom users expect. Import, rate, keyword and organise photos; develop\n raw files non-destructively with exposure, tone, color grading, masks and\n presets; GPU processing (wgpu). Includes lightcraft-cli, a headless renderer\n and command runner.",
-  "md5": "14144a02604790df42293b4e233a69be",
-  "sha1": "5e92e8d03a111c911277367dfec14ea87ae04a22",
-  "sha256": "7a837283f72c62d3bff74a80932ec1962acc7f59157cd3e39cec0c831e9dd801",
-  "size": 107973992
+ "storytold/gridcraft/releases/download/v0.16.0/gridcraft-0.16.0-linux-aarch64.deb": {
+  "control": "Package: gridcraft\nVersion: 0.16.0-1\nSection: misc\nPriority: optional\nArchitecture: arm64\nMaintainer: GridCraft maintainers <gridcraft@storyteller.ai>\nInstalled-Size: 98551\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/gridcraft\nDescription: Open-source, native spreadsheet that works the way Excel users expect.\n Opens and saves .xlsx workbooks and CSV/TSV files; hundreds of worksheet\n functions; formatting, sorting, filtering and charts.\n Includes gridcraft-cli, a headless evaluator, converter and command runner.",
+  "md5": "5860c5531d71b20d82a25033edfff9dd",
+  "sha1": "018285bde4443a97210fba6fb3188b1a74f59a1b",
+  "sha256": "03198f392e1db1e6630b76f97425c44cbc7461cc5eda9f7417065b206b701a17",
+  "size": 50945264
  },
- "storytold/lightcraft/releases/download/v0.13.0/lightcraft-0.13.0-linux-riscv64.deb": {
-  "control": "Package: lightcraft\nVersion: 0.13.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: LightCraft maintainers <lightcraft@storyteller.ai>\nInstalled-Size: 191486\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/lightcraft\nDescription: Open-source, native photo library and raw developer that works the way\n Lightroom users expect. Import, rate, keyword and organise photos; develop\n raw files non-destructively with exposure, tone, color grading, masks and\n presets; GPU processing (wgpu). Includes lightcraft-cli, a headless renderer\n and command runner.",
-  "md5": "8a47a517e0a1e92992760854de8c7f48",
-  "sha1": "7e47543a8c8344c1dc1f56d4f54a3a7b6f859266",
-  "sha256": "61d2ffff5ec62eabd879e305ae72874c537e7e06d4e3057908784a0bea83f495",
-  "size": 108751218
+ "storytold/gridcraft/releases/download/v0.16.0/gridcraft-0.16.0-linux-riscv64.deb": {
+  "control": "Package: gridcraft\nVersion: 0.16.0-1\nSection: misc\nPriority: optional\nArchitecture: riscv64\nMaintainer: GridCraft maintainers <gridcraft@storyteller.ai>\nInstalled-Size: 96518\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/gridcraft\nDescription: Open-source, native spreadsheet that works the way Excel users expect.\n Opens and saves .xlsx workbooks and CSV/TSV files; hundreds of worksheet\n functions; formatting, sorting, filtering and charts.\n Includes gridcraft-cli, a headless evaluator, converter and command runner.",
+  "md5": "f4e28378edca65e1e1fb0c4c8cb3c6f1",
+  "sha1": "e88ca95f94854074c01950a655bfcd87f11155ef",
+  "sha256": "1b66aca345e04f5eda1d558ae558d914920e9f8200c76badfb193467e4eaf51f",
+  "size": 51150332
  },
- "storytold/lightcraft/releases/download/v0.13.0/lightcraft-0.13.0-linux-x86_64.deb": {
-  "control": "Package: lightcraft\nVersion: 0.13.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: LightCraft maintainers <lightcraft@storyteller.ai>\nInstalled-Size: 214488\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/lightcraft\nDescription: Open-source, native photo library and raw developer that works the way\n Lightroom users expect. Import, rate, keyword and organise photos; develop\n raw files non-destructively with exposure, tone, color grading, masks and\n presets; GPU processing (wgpu). Includes lightcraft-cli, a headless renderer\n and command runner.",
-  "md5": "7192f74bb1a4ae0e62476faef277c2da",
-  "sha1": "c62c251abfb15d1af71b89cc1fe28fd0c97079cc",
-  "sha256": "4dcd2437fe42e91a5cd5ea3481ef77b5ed675ef37131f0ccb97702fff298550d",
-  "size": 111724544
+ "storytold/gridcraft/releases/download/v0.16.0/gridcraft-0.16.0-linux-x86_64.deb": {
+  "control": "Package: gridcraft\nVersion: 0.16.0-1\nSection: misc\nPriority: optional\nArchitecture: amd64\nMaintainer: GridCraft maintainers <gridcraft@storyteller.ai>\nInstalled-Size: 105682\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/gridcraft\nDescription: Open-source, native spreadsheet that works the way Excel users expect.\n Opens and saves .xlsx workbooks and CSV/TSV files; hundreds of worksheet\n functions; formatting, sorting, filtering and charts.\n Includes gridcraft-cli, a headless evaluator, converter and command runner.",
+  "md5": "e9e042365ea292533c60926cedb6d7eb",
+  "sha1": "2592616e421f0804a5da62ca170116531a51fb61",
+  "sha256": "42c6b1a962b59d297cd9065e0d60928c5d02d631353c38fbe6a2fb9fa70a400b",
+  "size": 52363166
  },
  "storytold/lightcraft/releases/download/v0.14.0/lightcraft-0.14.0-linux-aarch64.deb": {
   "control": "Package: lightcraft\nVersion: 0.14.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: LightCraft maintainers <lightcraft@storyteller.ai>\nInstalled-Size: 196460\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/lightcraft\nDescription: Open-source, native photo library and raw developer that works the way\n Lightroom users expect. Import, rate, keyword and organise photos; develop\n raw files non-destructively with exposure, tone, color grading, masks and\n presets; GPU processing (wgpu). Includes lightcraft-cli, a headless renderer\n and command runner.",
@@ -1000,26 +979,47 @@
   "sha256": "21b50bc27a06fd6fc66ce9a07b379c5018924096f50fa14d51cce32fbe0b353f",
   "size": 121759518
  },
- "storytold/pdfcraft/releases/download/v0.13.0/pdfcraft-0.13.0-linux-aarch64.deb": {
-  "control": "Package: pdfcraft\nVersion: 0.13.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 153472\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
-  "md5": "9bea3f9e03d15077c37fed2904eb012b",
-  "sha1": "6e0c076e63b46ab5aa5df934cc996c2590906b40",
-  "sha256": "0e1070253eac44ff446c0fe7adbda7f0a7940fa1e249bea261082672fbaf0e66",
-  "size": 85878042
+ "storytold/lightcraft/releases/download/v0.18.0/lightcraft-0.18.0-linux-aarch64.deb": {
+  "control": "Package: lightcraft\nVersion: 0.18.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: LightCraft maintainers <lightcraft@storyteller.ai>\nInstalled-Size: 218158\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/lightcraft\nDescription: Open-source, native photo library and raw developer that works the way\n Lightroom users expect. Import, rate, keyword and organise photos; develop\n raw files non-destructively with exposure, tone, color grading, masks and\n presets; GPU processing (wgpu). Includes lightcraft-cli, a headless renderer\n and command runner.",
+  "md5": "cc2b5832e6eeca12450d93f6cb97df1a",
+  "sha1": "b7db502f3d993922a0825068625c27672f77d015",
+  "sha256": "805f413b3aece0cb544d756aa72b84d915ae5caf64d9600477fbda72ca38d2b2",
+  "size": 117686922
  },
- "storytold/pdfcraft/releases/download/v0.13.0/pdfcraft-0.13.0-linux-riscv64.deb": {
-  "control": "Package: pdfcraft\nVersion: 0.13.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 150244\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
-  "md5": "b478e8a409c5d784203c64da5fdbf774",
-  "sha1": "b9ae5d7f3be57cecb86e742913984ed421118caf",
-  "sha256": "f3d843da041da12bff72c07a284c1dd0dfb12882b1d52a0d70c5ffb4bba29404",
-  "size": 86201292
+ "storytold/lightcraft/releases/download/v0.18.0/lightcraft-0.18.0-linux-riscv64.deb": {
+  "control": "Package: lightcraft\nVersion: 0.18.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: LightCraft maintainers <lightcraft@storyteller.ai>\nInstalled-Size: 214074\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/lightcraft\nDescription: Open-source, native photo library and raw developer that works the way\n Lightroom users expect. Import, rate, keyword and organise photos; develop\n raw files non-destructively with exposure, tone, color grading, masks and\n presets; GPU processing (wgpu). Includes lightcraft-cli, a headless renderer\n and command runner.",
+  "md5": "c5d6e9fac18d9a457bbd8c5a98da0693",
+  "sha1": "5bf0ec08ed94f6a83e5aa91c5b59d87f85abffa1",
+  "sha256": "bde4d5e3ef51555cc7815612b223abb7d544fdc6f9337f555b5089b12191bb4b",
+  "size": 118273830
  },
- "storytold/pdfcraft/releases/download/v0.13.0/pdfcraft-0.13.0-linux-x86_64.deb": {
-  "control": "Package: pdfcraft\nVersion: 0.13.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 168904\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
-  "md5": "a7da9594e684633cec099ca899d0e974",
-  "sha1": "10c651646d2e8272d15a84667b3df68f796983d3",
-  "sha256": "4f512eb936e3757cda98d5e5e41b7bfe5e0be7eb6850f5a0004be30d606e6774",
-  "size": 88762386
+ "storytold/lightcraft/releases/download/v0.18.0/lightcraft-0.18.0-linux-x86_64.deb": {
+  "control": "Package: lightcraft\nVersion: 0.18.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: LightCraft maintainers <lightcraft@storyteller.ai>\nInstalled-Size: 239181\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/lightcraft\nDescription: Open-source, native photo library and raw developer that works the way\n Lightroom users expect. Import, rate, keyword and organise photos; develop\n raw files non-destructively with exposure, tone, color grading, masks and\n presets; GPU processing (wgpu). Includes lightcraft-cli, a headless renderer\n and command runner.",
+  "md5": "ec64a957f7d06769ebfc76269ad234b6",
+  "sha1": "a4cdc8b547202782288f4a2f14ec8b0723388e54",
+  "sha256": "050444a5f6b830ee3bb0d50d81124d0fe5ba62e0a1bca1ae2c9f26ce9e038fe2",
+  "size": 121758662
+ },
+ "storytold/materialcraft/releases/download/v0.1.0/materialcraft-0.1.0-linux-aarch64.deb": {
+  "control": "Package: materialcraft\nVersion: 0.1.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: MaterialCraft maintainers <materialcraft@storyteller.ai>\nInstalled-Size: 35906\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/materialcraft\nDescription: Open-source, native node-based procedural material designer. Builds tileable PBR\n materials from noises, patterns and filters in a node graph with live 2D and 3D\n previews, and exports texture maps for game engines.\n Includes materialcraft-cli, a headless graph cooker and command runner.",
+  "md5": "0388232d30fb9615ac03a9ca50c2947e",
+  "sha1": "35bb7489f189ec1b0c0da16b08d7ff7452e930e0",
+  "sha256": "46d6ec5ec3ee3309c515b6afb327af5e69f7aa8a2bdb7e8e76c4413576bc3cb6",
+  "size": 16179216
+ },
+ "storytold/materialcraft/releases/download/v0.1.0/materialcraft-0.1.0-linux-riscv64.deb": {
+  "control": "Package: materialcraft\nVersion: 0.1.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: MaterialCraft maintainers <materialcraft@storyteller.ai>\nInstalled-Size: 35249\nDepends: libc6 (>= 2.39), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/materialcraft\nDescription: Open-source, native node-based procedural material designer. Builds tileable PBR\n materials from noises, patterns and filters in a node graph with live 2D and 3D\n previews, and exports texture maps for game engines.\n Includes materialcraft-cli, a headless graph cooker and command runner.",
+  "md5": "d2b76324e407c00f616861619fea159d",
+  "sha1": "4c0c6ad756e2a66b09575f0d267421a37eb15306",
+  "sha256": "a5a3f5bf301a137018555f9747b7f4a4655be9883abac2915fce657401d342b5",
+  "size": 16712730
+ },
+ "storytold/materialcraft/releases/download/v0.1.0/materialcraft-0.1.0-linux-x86_64.deb": {
+  "control": "Package: materialcraft\nVersion: 0.1.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: MaterialCraft maintainers <materialcraft@storyteller.ai>\nInstalled-Size: 40974\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/materialcraft\nDescription: Open-source, native node-based procedural material designer. Builds tileable PBR\n materials from noises, patterns and filters in a node graph with live 2D and 3D\n previews, and exports texture maps for game engines.\n Includes materialcraft-cli, a headless graph cooker and command runner.",
+  "md5": "856439335b5bbd5e2cc65f17ee336406",
+  "sha1": "06aebba2b9f874ca724fcffd5f87d16a3b3286e0",
+  "sha256": "5b55b9c5a18f4addfbf8b895e32553f54a34b35fff40cf7035af92e2a81138bf",
+  "size": 16937254
  },
  "storytold/pdfcraft/releases/download/v0.14.0/pdfcraft-0.14.0-linux-aarch64.deb": {
   "control": "Package: pdfcraft\nVersion: 0.14.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 154708\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
@@ -1105,26 +1105,26 @@
   "sha256": "5500ec5693f2e2ec73cdc6e2b7c2b4aa897149c0b2d7465a4ce40e665b41db46",
   "size": 112416678
  },
- "storytold/photocraft/releases/download/v0.15.1/photocraft-0.15.1-linux-aarch64.deb": {
-  "control": "Package: photocraft\nVersion: 0.15.1-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: PhotoCraft maintainers <photocraft@storyteller.ai>\nInstalled-Size: 149807\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/photocraft\nDescription: Open-source, native image editor with familiar, professional tools.\n Layers, masks, adjustment layers, layer styles, type and brushes; opens and\n saves layered PSD/PSB files; 8/16/32-bit documents; GPU compositing (wgpu).\n Includes photocraft-cli, a headless converter and command runner.",
-  "md5": "bb8123f8db5ca92162524c85cd21552f",
-  "sha1": "9859c8392c6de4f4484162e62135603dac9c3cb1",
-  "sha256": "f8c9c185ed0fd61b82026fa65abd991256b65ed65cb2c889ba3a86f0abbd25e2",
-  "size": 83545978
+ "storytold/pdfcraft/releases/download/v0.18.0/pdfcraft-0.18.0-linux-aarch64.deb": {
+  "control": "Package: pdfcraft\nVersion: 0.18.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 197775\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
+  "md5": "3c3f14caabd1889709b8a58e583980bc",
+  "sha1": "5415a465713b47f700aeb35773c19517be461c71",
+  "sha256": "7556e4d3ffb5e27c1568f4e0814381f54217f2a61cafd72b6083d30e665ece07",
+  "size": 109658574
  },
- "storytold/photocraft/releases/download/v0.15.1/photocraft-0.15.1-linux-riscv64.deb": {
-  "control": "Package: photocraft\nVersion: 0.15.1-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: PhotoCraft maintainers <photocraft@storyteller.ai>\nInstalled-Size: 148266\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/photocraft\nDescription: Open-source, native image editor with familiar, professional tools.\n Layers, masks, adjustment layers, layer styles, type and brushes; opens and\n saves layered PSD/PSB files; 8/16/32-bit documents; GPU compositing (wgpu).\n Includes photocraft-cli, a headless converter and command runner.",
-  "md5": "0ce8722a52b3992cb4a1224f009436b2",
-  "sha1": "5c9bf134d3704a98caf7be40be900c41f777ec66",
-  "sha256": "626496720dc8ee7eaf4582f88074e4022d8485e132f8d887c13aff7ea24e246f",
-  "size": 84579282
+ "storytold/pdfcraft/releases/download/v0.18.0/pdfcraft-0.18.0-linux-riscv64.deb": {
+  "control": "Package: pdfcraft\nVersion: 0.18.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 194675\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
+  "md5": "f9ba4fddef9d59d6fec9f8a933d55625",
+  "sha1": "9411b4e2dbf1c9241703827f97699a96d40cc265",
+  "sha256": "fa42870b2431643481edbf22d591c95c778204ce33c8a17214cfecfdbd408909",
+  "size": 109938398
  },
- "storytold/photocraft/releases/download/v0.15.1/photocraft-0.15.1-linux-x86_64.deb": {
-  "control": "Package: photocraft\nVersion: 0.15.1-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: PhotoCraft maintainers <photocraft@storyteller.ai>\nInstalled-Size: 168165\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/photocraft\nDescription: Open-source, native image editor with familiar, professional tools.\n Layers, masks, adjustment layers, layer styles, type and brushes; opens and\n saves layered PSD/PSB files; 8/16/32-bit documents; GPU compositing (wgpu).\n Includes photocraft-cli, a headless converter and command runner.",
-  "md5": "9dcf0166dd5e0a83cd168d139d3ae74c",
-  "sha1": "615334dd8968404b340ca104bff682e2142889e3",
-  "sha256": "28eb2b4133240374a96184f983e51b9759656f6ba467cbef528e999b701fd8f3",
-  "size": 87087774
+ "storytold/pdfcraft/releases/download/v0.18.0/pdfcraft-0.18.0-linux-x86_64.deb": {
+  "control": "Package: pdfcraft\nVersion: 0.18.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 214462\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
+  "md5": "9be9a984ae8647f741b929371865b4e7",
+  "sha1": "52bb900a27218bb78cde573bf49dcf5e76978592",
+  "sha256": "25c6d318693f65913fe1102082b9b60354b5b7f503ad789e4d6ef1fc506eb5c5",
+  "size": 112577106
  },
  "storytold/photocraft/releases/download/v0.16.0/photocraft-0.16.0-linux-aarch64.deb": {
   "control": "Package: photocraft\nVersion: 0.16.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: PhotoCraft maintainers <photocraft@storyteller.ai>\nInstalled-Size: 153624\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/photocraft\nDescription: Open-source, native image editor with familiar, professional tools.\n Layers, masks, adjustment layers, layer styles, type and brushes; opens and\n saves layered PSD/PSB files; 8/16/32-bit documents; GPU compositing (wgpu).\n Includes photocraft-cli, a headless converter and command runner.",
@@ -1210,26 +1210,26 @@
   "sha256": "80b77bc8cb2638bdcde80c8f410b1efccfef846a23529b089a818d128c2f6c53",
   "size": 126761222
  },
- "storytold/soundcraft/releases/download/v0.12.1/soundcraft-0.12.1-linux-aarch64.deb": {
-  "control": "Package: soundcraft\nVersion: 0.12.1-1\nSection: sound\nPriority: optional\nArchitecture: arm64\nMaintainer: SoundCraft maintainers <soundcraft@storyteller.ai>\nInstalled-Size: 34753\nDepends: libc6 (>= 2.35), libgcc-s1, libasound2 | libasound2t64, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal, pipewire-alsa | pulseaudio\nHomepage: https://getartcraft.com/apps/soundcraft\nDescription: Open-source, native digital audio workstation. Record, edit and mix\n multitrack audio and MIDI in Edit and Mix windows; built-in EQ, dynamics,\n reverb, delay and instruments; imports WAV, AIFF, FLAC, MP3 and MIDI.\n Includes soundcraft-cli, a headless editor, bounce tool and MCP server.",
-  "md5": "eeadfa1709e99ee4769ab06ce03b3375",
-  "sha1": "76f6d6e3782093f4dde39441ef8103c9c0a1ad3e",
-  "sha256": "9c2b74ccddab34a9a46c53ce5326fae5cd77ac5633178e44aeb7bc2fef8a5f25",
-  "size": 15792672
+ "storytold/photocraft/releases/download/v0.20.1/photocraft-0.20.1-linux-aarch64.deb": {
+  "control": "Package: photocraft\nVersion: 0.20.1-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: PhotoCraft maintainers <photocraft@storyteller.ai>\nInstalled-Size: 210232\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/photocraft\nDescription: Open-source, native image editor with familiar, professional tools.\n Layers, masks, adjustment layers, layer styles, type and brushes; opens and\n saves layered PSD/PSB files; 8/16/32-bit documents; GPU compositing (wgpu).\n Includes photocraft-cli, a headless converter and command runner.",
+  "md5": "48366f24c62de82cec93554631d38dac",
+  "sha1": "0a7cf3d979c970c20ae14e7d262cf283406d7e82",
+  "sha256": "34b21ba0ee9e5a657c95617c9a2fe3257af444a32e29a32349d22cffb2169149",
+  "size": 123807362
  },
- "storytold/soundcraft/releases/download/v0.12.1/soundcraft-0.12.1-linux-riscv64.deb": {
-  "control": "Package: soundcraft\nVersion: 0.12.1-1\nSection: sound\nPriority: optional\nArchitecture: riscv64\nMaintainer: SoundCraft maintainers <soundcraft@storyteller.ai>\nInstalled-Size: 33701\nDepends: libc6 (>= 2.35), libgcc-s1, libasound2 | libasound2t64, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal, pipewire-alsa | pulseaudio\nHomepage: https://getartcraft.com/apps/soundcraft\nDescription: Open-source, native digital audio workstation. Record, edit and mix\n multitrack audio and MIDI in Edit and Mix windows; built-in EQ, dynamics,\n reverb, delay and instruments; imports WAV, AIFF, FLAC, MP3 and MIDI.\n Includes soundcraft-cli, a headless editor, bounce tool and MCP server.",
-  "md5": "ecdabf26ead514d8d1f020c08ecf4097",
-  "sha1": "3ad1e94b3e3bb76357840391d54189042a774306",
-  "sha256": "614978722ba9015eac237ca4a45d7686b2a5a386961eb992559d3593d49a377e",
-  "size": 16084396
+ "storytold/photocraft/releases/download/v0.20.1/photocraft-0.20.1-linux-riscv64.deb": {
+  "control": "Package: photocraft\nVersion: 0.20.1-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: PhotoCraft maintainers <photocraft@storyteller.ai>\nInstalled-Size: 208208\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/photocraft\nDescription: Open-source, native image editor with familiar, professional tools.\n Layers, masks, adjustment layers, layer styles, type and brushes; opens and\n saves layered PSD/PSB files; 8/16/32-bit documents; GPU compositing (wgpu).\n Includes photocraft-cli, a headless converter and command runner.",
+  "md5": "71d48e3bbcf4c8e6d942ae750009d042",
+  "sha1": "476ebf3564a47460c8ce245b936ad3b5ccf9114a",
+  "sha256": "2983989c71332ba3f5409d0900b173423dab7b972fe493f20bebe65876af28fc",
+  "size": 124765280
  },
- "storytold/soundcraft/releases/download/v0.12.1/soundcraft-0.12.1-linux-x86_64.deb": {
-  "control": "Package: soundcraft\nVersion: 0.12.1-1\nSection: sound\nPriority: optional\nArchitecture: amd64\nMaintainer: SoundCraft maintainers <soundcraft@storyteller.ai>\nInstalled-Size: 39742\nDepends: libc6 (>= 2.35), libgcc-s1, libasound2 | libasound2t64, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal, pipewire-alsa | pulseaudio\nHomepage: https://getartcraft.com/apps/soundcraft\nDescription: Open-source, native digital audio workstation. Record, edit and mix\n multitrack audio and MIDI in Edit and Mix windows; built-in EQ, dynamics,\n reverb, delay and instruments; imports WAV, AIFF, FLAC, MP3 and MIDI.\n Includes soundcraft-cli, a headless editor, bounce tool and MCP server.",
-  "md5": "6ea88a3aca7ef85336562e8516ccb4d3",
-  "sha1": "3dc65d4a80cd5ffb85d74c20686c9f2bbb96b15c",
-  "sha256": "6d05fc30b9277cd62ca3b37468e3851bed69c0aac0a41251088925a2395b86be",
-  "size": 16876916
+ "storytold/photocraft/releases/download/v0.20.1/photocraft-0.20.1-linux-x86_64.deb": {
+  "control": "Package: photocraft\nVersion: 0.20.1-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: PhotoCraft maintainers <photocraft@storyteller.ai>\nInstalled-Size: 232356\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/photocraft\nDescription: Open-source, native image editor with familiar, professional tools.\n Layers, masks, adjustment layers, layer styles, type and brushes; opens and\n saves layered PSD/PSB files; 8/16/32-bit documents; GPU compositing (wgpu).\n Includes photocraft-cli, a headless converter and command runner.",
+  "md5": "e21735e9290610a85699ec720ae1683f",
+  "sha1": "e5e677045b6c67ba93b15dac8659be89836e5a2b",
+  "sha256": "802b3a1d2da9be06436bb615bf0a53b26b79981510206e7cdf42a94a6e9f4f2c",
+  "size": 127706242
  },
  "storytold/soundcraft/releases/download/v0.13.1/soundcraft-0.13.1-linux-aarch64.deb": {
   "control": "Package: soundcraft\nVersion: 0.13.1-1\nSection: sound\nPriority: optional\nArchitecture: arm64\nMaintainer: SoundCraft maintainers <soundcraft@storyteller.ai>\nInstalled-Size: 36847\nDepends: libc6 (>= 2.35), libgcc-s1, libasound2 | libasound2t64, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal, pipewire-alsa | pulseaudio\nHomepage: https://getartcraft.com/apps/soundcraft\nDescription: Open-source, native digital audio workstation. Record, edit and mix\n multitrack audio and MIDI in Edit and Mix windows; built-in EQ, dynamics,\n reverb, delay and instruments; imports WAV, AIFF, FLAC, MP3 and MIDI.\n Includes soundcraft-cli, a headless editor, bounce tool and MCP server.",
@@ -1315,6 +1315,27 @@
   "sha256": "ac41e447ad04a386b3acbc0ca5f79a8fd1934d1635d03e5f87af00f6043aedab",
   "size": 21111284
  },
+ "storytold/soundcraft/releases/download/v0.17.0/soundcraft-0.17.0-linux-aarch64.deb": {
+  "control": "Package: soundcraft\nVersion: 0.17.0-1\nSection: sound\nPriority: optional\nArchitecture: arm64\nMaintainer: SoundCraft maintainers <soundcraft@storyteller.ai>\nInstalled-Size: 42940\nDepends: libc6 (>= 2.35), libgcc-s1, libasound2 | libasound2t64, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal, pipewire-alsa | pulseaudio\nHomepage: https://getartcraft.com/apps/soundcraft\nDescription: Open-source, native digital audio workstation. Record, edit and mix\n multitrack audio and MIDI in Edit and Mix windows; built-in EQ, dynamics,\n reverb, delay and instruments; imports WAV, AIFF, FLAC, MP3 and MIDI.\n Includes soundcraft-cli, a headless editor, bounce tool and MCP server.",
+  "md5": "dcac657255bf4d15f3e9728340464c55",
+  "sha1": "dee85d3e948e1aff332dccd2769c1384f9870d24",
+  "sha256": "f401f542740a5d9510d10f63c66de5f88a81c602d1906100bccfd1d6ff2bb65d",
+  "size": 20000236
+ },
+ "storytold/soundcraft/releases/download/v0.17.0/soundcraft-0.17.0-linux-riscv64.deb": {
+  "control": "Package: soundcraft\nVersion: 0.17.0-1\nSection: sound\nPriority: optional\nArchitecture: riscv64\nMaintainer: SoundCraft maintainers <soundcraft@storyteller.ai>\nInstalled-Size: 41624\nDepends: libc6 (>= 2.35), libgcc-s1, libasound2 | libasound2t64, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal, pipewire-alsa | pulseaudio\nHomepage: https://getartcraft.com/apps/soundcraft\nDescription: Open-source, native digital audio workstation. Record, edit and mix\n multitrack audio and MIDI in Edit and Mix windows; built-in EQ, dynamics,\n reverb, delay and instruments; imports WAV, AIFF, FLAC, MP3 and MIDI.\n Includes soundcraft-cli, a headless editor, bounce tool and MCP server.",
+  "md5": "ba7e9cd6fc964757eb807188f98d72ee",
+  "sha1": "2e357c7380bd953c1697981f2b397e9e5b7957f0",
+  "sha256": "0b12519e636cc62efb723f0d8a4498230a5b56a1baf497982acaeedf0e350087",
+  "size": 20299872
+ },
+ "storytold/soundcraft/releases/download/v0.17.0/soundcraft-0.17.0-linux-x86_64.deb": {
+  "control": "Package: soundcraft\nVersion: 0.17.0-1\nSection: sound\nPriority: optional\nArchitecture: amd64\nMaintainer: SoundCraft maintainers <soundcraft@storyteller.ai>\nInstalled-Size: 48983\nDepends: libc6 (>= 2.35), libgcc-s1, libasound2 | libasound2t64, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal, pipewire-alsa | pulseaudio\nHomepage: https://getartcraft.com/apps/soundcraft\nDescription: Open-source, native digital audio workstation. Record, edit and mix\n multitrack audio and MIDI in Edit and Mix windows; built-in EQ, dynamics,\n reverb, delay and instruments; imports WAV, AIFF, FLAC, MP3 and MIDI.\n Includes soundcraft-cli, a headless editor, bounce tool and MCP server.",
+  "md5": "e43bbf6c2cde645ceccf770b8eb474e5",
+  "sha1": "b226b237f52705b8b3d49a01471cfc1e084b89e0",
+  "sha256": "ec9b8833b63a6396121a26c76b1b23a64fdf3fc97360c5dae77f3fde4204667a",
+  "size": 21267940
+ },
  "storytold/texturecraft/releases/download/v0.2.0/texturecraft-0.2.0-linux-aarch64.deb": {
   "control": "Package: texturecraft\nVersion: 0.2.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: TextureCraft maintainers <texturecraft@storyteller.ai>\nInstalled-Size: 62740\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/texturecraft\nDescription: Open-source, native 3D texture painter that works the way texture artists\n expect. Paints PBR texture sets directly on glTF, FBX, COLLADA, USD, Alembic,\n OBJ, PLY and STL meshes with layers, masks, fills and smart materials; bakes mesh maps;\n exports texture sets for game engines. GPU viewport (wgpu).\n Includes texturecraft-cli, a headless converter and command runner.",
   "md5": "2b71ec6a36c97dd5f3a79b041e92c8cf",
@@ -1336,26 +1357,26 @@
   "sha256": "d1339c54bde5bd22f42b8a07c20637d5f05db0a0195d49802421d698ca84d17e",
   "size": 37603688
  },
- "storytold/vectorcraft/releases/download/v0.16.0/vectorcraft-0.16.0-linux-aarch64.deb": {
-  "control": "Package: vectorcraft\nVersion: 0.16.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: VectorCraft maintainers <vectorcraft@storyteller.ai>\nInstalled-Size: 218896\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/vectorcraft\nDescription: Open-source, native vector illustration app.\n Pen, shape and brush tools, artboards, type, gradients, symbols and live\n effects; opens and saves SVG and PDF.\n Includes vectorcraft-cli, a headless converter and command runner.",
-  "md5": "6f890d63d825d53720baca8e720aef29",
-  "sha1": "cfd3be14a4ccdb0f869b63c547065e2498ccf56c",
-  "sha256": "7c393cfbaebe74c7fdb8edd1d6b13416714be64ae9f3e86bf82b2542a14c42b7",
-  "size": 125198340
+ "storytold/texturecraft/releases/download/v0.3.0/texturecraft-0.3.0-linux-aarch64.deb": {
+  "control": "Package: texturecraft\nVersion: 0.3.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: TextureCraft maintainers <texturecraft@storyteller.ai>\nInstalled-Size: 68190\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/texturecraft\nDescription: Open-source, native 3D texture painter that works the way texture artists\n expect. Paints PBR texture sets directly on glTF, FBX, COLLADA, USD, Alembic,\n OBJ, PLY and STL meshes with layers, masks, fills and smart materials; bakes mesh maps;\n exports texture sets for game engines. GPU viewport (wgpu).\n Includes texturecraft-cli, a headless converter and command runner.",
+  "md5": "96972156527ee184f303efca7899bf52",
+  "sha1": "bf25b2d0b07bf23d9a190dbea98adb033129cb9d",
+  "sha256": "6b716dcb88d070028802d09a942611db5602dbeb76bda1ec9ebecfe761b525c9",
+  "size": 39391456
  },
- "storytold/vectorcraft/releases/download/v0.16.0/vectorcraft-0.16.0-linux-riscv64.deb": {
-  "control": "Package: vectorcraft\nVersion: 0.16.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: VectorCraft maintainers <vectorcraft@storyteller.ai>\nInstalled-Size: 217283\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/vectorcraft\nDescription: Open-source, native vector illustration app.\n Pen, shape and brush tools, artboards, type, gradients, symbols and live\n effects; opens and saves SVG and PDF.\n Includes vectorcraft-cli, a headless converter and command runner.",
-  "md5": "174c81094da79da3dd169ff1738f6de2",
-  "sha1": "fb8b7aa5ed61e86145343bcd06e71e0ee6d9dfe0",
-  "sha256": "57fffb8db1c21e12756658fbdccd26c38cc77d16bd8095d303a4a16f63169a65",
-  "size": 126933606
+ "storytold/texturecraft/releases/download/v0.3.0/texturecraft-0.3.0-linux-riscv64.deb": {
+  "control": "Package: texturecraft\nVersion: 0.3.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: TextureCraft maintainers <texturecraft@storyteller.ai>\nInstalled-Size: 67466\nDepends: libc6 (>= 2.39), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/texturecraft\nDescription: Open-source, native 3D texture painter that works the way texture artists\n expect. Paints PBR texture sets directly on glTF, FBX, COLLADA, USD, Alembic,\n OBJ, PLY and STL meshes with layers, masks, fills and smart materials; bakes mesh maps;\n exports texture sets for game engines. GPU viewport (wgpu).\n Includes texturecraft-cli, a headless converter and command runner.",
+  "md5": "142fbafec36841e82a68790924a56678",
+  "sha1": "bbac602690112d5a7d243c9de1ed0b4b0f777647",
+  "sha256": "a1b48a2dbe13a31525f7e2e86f35009c57a2414eda397696b17c0f908a54e5d5",
+  "size": 40101056
  },
- "storytold/vectorcraft/releases/download/v0.16.0/vectorcraft-0.16.0-linux-x86_64.deb": {
-  "control": "Package: vectorcraft\nVersion: 0.16.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: VectorCraft maintainers <vectorcraft@storyteller.ai>\nInstalled-Size: 240125\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/vectorcraft\nDescription: Open-source, native vector illustration app.\n Pen, shape and brush tools, artboards, type, gradients, symbols and live\n effects; opens and saves SVG and PDF.\n Includes vectorcraft-cli, a headless converter and command runner.",
-  "md5": "caa50071770ec3741ac6037dd764ca36",
-  "sha1": "252c93e039bdff3ca5277ea18437cb22961a25c6",
-  "sha256": "c9dbd6c82f28247a005846f1123144161148895cd7b5ccd21ae419de3f2631ac",
-  "size": 129236270
+ "storytold/texturecraft/releases/download/v0.3.0/texturecraft-0.3.0-linux-x86_64.deb": {
+  "control": "Package: texturecraft\nVersion: 0.3.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: TextureCraft maintainers <texturecraft@storyteller.ai>\nInstalled-Size: 74642\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/texturecraft\nDescription: Open-source, native 3D texture painter that works the way texture artists\n expect. Paints PBR texture sets directly on glTF, FBX, COLLADA, USD, Alembic,\n OBJ, PLY and STL meshes with layers, masks, fills and smart materials; bakes mesh maps;\n exports texture sets for game engines. GPU viewport (wgpu).\n Includes texturecraft-cli, a headless converter and command runner.",
+  "md5": "d5f86c89888bdf3bb909ce6f64758542",
+  "sha1": "1160029c9e7bea0943ec2ef4c5f98f2b0932cdab",
+  "sha256": "6f0d262cd081d1a94b16a646a1180773a26c0cf4d8281550a06b3119bc3bbc26",
+  "size": 40479892
  },
  "storytold/vectorcraft/releases/download/v0.17.0/vectorcraft-0.17.0-linux-aarch64.deb": {
   "control": "Package: vectorcraft\nVersion: 0.17.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: VectorCraft maintainers <vectorcraft@storyteller.ai>\nInstalled-Size: 222457\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/vectorcraft\nDescription: Open-source, native vector illustration app.\n Pen, shape and brush tools, artboards, type, gradients, symbols and live\n effects; opens and saves SVG and PDF.\n Includes vectorcraft-cli, a headless converter and command runner.",
@@ -1441,26 +1462,26 @@
   "sha256": "c67a7da1d7d07dff9db3b7a99c56af7c06ba6ce6a6af661c0a04f03f3b05a184",
   "size": 142374568
  },
- "storytold/wordcraft/releases/download/v0.10.0/wordcraft-0.10.0-linux-aarch64.deb": {
-  "control": "Package: wordcraft\nVersion: 0.10.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 175087\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
-  "md5": "ae2149401b3a1cb13afb2190453fa749",
-  "sha1": "c8bddac77167f46502fdad6473e53c8d042dfc83",
-  "sha256": "5eb8e0e6d07818745daf012527f97c3a7a231e4a7f773d0b52a5707e9536bec8",
-  "size": 101328612
+ "storytold/vectorcraft/releases/download/v0.21.0/vectorcraft-0.21.0-linux-aarch64.deb": {
+  "control": "Package: vectorcraft\nVersion: 0.21.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: VectorCraft maintainers <vectorcraft@storyteller.ai>\nInstalled-Size: 249050\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/vectorcraft\nDescription: Open-source, native vector illustration app.\n Pen, shape and brush tools, artboards, type, gradients, symbols and live\n effects; opens and saves SVG and PDF.\n Includes vectorcraft-cli, a headless converter and command runner.",
+  "md5": "562f700e8d0829e959ff3520c7393be6",
+  "sha1": "63dc4d5d76abe5fbf7b5e0e18dabb5dc8adfd97a",
+  "sha256": "da97164c874b8cde221e606aad1ca0778e50ec789a038bb2b1661152466a3510",
+  "size": 139426636
  },
- "storytold/wordcraft/releases/download/v0.10.0/wordcraft-0.10.0-linux-riscv64.deb": {
-  "control": "Package: wordcraft\nVersion: 0.10.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 172523\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
-  "md5": "966010f2111b1d723431dea0008f9783",
-  "sha1": "f4af6714414a9b2f7d7423095d96bacbc619052c",
-  "sha256": "f25565401f4cb8c78c6c96d269ab4807f5faa079f9a9b6df1ce3e150056937aa",
-  "size": 102136326
+ "storytold/vectorcraft/releases/download/v0.21.0/vectorcraft-0.21.0-linux-riscv64.deb": {
+  "control": "Package: vectorcraft\nVersion: 0.21.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: VectorCraft maintainers <vectorcraft@storyteller.ai>\nInstalled-Size: 246786\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/vectorcraft\nDescription: Open-source, native vector illustration app.\n Pen, shape and brush tools, artboards, type, gradients, symbols and live\n effects; opens and saves SVG and PDF.\n Includes vectorcraft-cli, a headless converter and command runner.",
+  "md5": "3b8130b6043fa238c194a066a409d1dc",
+  "sha1": "4d5bf8468ea7334f31cd2170f104d41c06ea5e2c",
+  "sha256": "8724980936c8280cf29d6b0f25374857e002fa89e67dc8b8b90e6f8a9307fb7e",
+  "size": 140992474
  },
- "storytold/wordcraft/releases/download/v0.10.0/wordcraft-0.10.0-linux-x86_64.deb": {
-  "control": "Package: wordcraft\nVersion: 0.10.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 186800\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
-  "md5": "927f2ea79da75b993b13c6fa68f7b419",
-  "sha1": "d02b272986114d512c8f00fc29234ff3722c9f9c",
-  "sha256": "64d86949373c178397a4f25d8ed52d346cf2ea46c2296e7cf648e409b98298a2",
-  "size": 103501898
+ "storytold/vectorcraft/releases/download/v0.21.0/vectorcraft-0.21.0-linux-x86_64.deb": {
+  "control": "Package: vectorcraft\nVersion: 0.21.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: VectorCraft maintainers <vectorcraft@storyteller.ai>\nInstalled-Size: 273700\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/vectorcraft\nDescription: Open-source, native vector illustration app.\n Pen, shape and brush tools, artboards, type, gradients, symbols and live\n effects; opens and saves SVG and PDF.\n Includes vectorcraft-cli, a headless converter and command runner.",
+  "md5": "c2a768917302aa0e37b15eb276426bb2",
+  "sha1": "56fe72c4124a2eda6ae3f653fd750194e70c0d81",
+  "sha256": "7b9496a8f4a91f36a5aa222ec99a38c0bece6e5ce571b895cb3e1117d0c3b2d3",
+  "size": 143784886
  },
  "storytold/wordcraft/releases/download/v0.11.0/wordcraft-0.11.0-linux-aarch64.deb": {
   "control": "Package: wordcraft\nVersion: 0.11.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 177379\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
@@ -1545,5 +1566,26 @@
   "sha1": "c046f6a476de77c74fe729729246dcff8014c1bb",
   "sha256": "0e8f4ce3fc4662d71631125b9e02ae854658ef608c85ea6e304c9dc60e239641",
   "size": 111429240
+ },
+ "storytold/wordcraft/releases/download/v0.15.0/wordcraft-0.15.0-linux-aarch64.deb": {
+  "control": "Package: wordcraft\nVersion: 0.15.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 202066\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
+  "md5": "c44ff8a95916fe3cce5b842b4ac2b4ae",
+  "sha1": "96a67916d0f2142043342bb5e8d02751c261be1f",
+  "sha256": "1350ac117a375edec245ce8564e921af0bb92243810de326471eae99e10c4080",
+  "size": 113514910
+ },
+ "storytold/wordcraft/releases/download/v0.15.0/wordcraft-0.15.0-linux-riscv64.deb": {
+  "control": "Package: wordcraft\nVersion: 0.15.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 199310\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
+  "md5": "069f64b64057e77897f3ac5721ea2cb7",
+  "sha1": "cc292e4e8a373f190090f7abe4021bd85b29a064",
+  "sha256": "f83119fd477ff08921026d1451a60ce1895870831f5521539d94bd652cd2ea8b",
+  "size": 114180934
+ },
+ "storytold/wordcraft/releases/download/v0.15.0/wordcraft-0.15.0-linux-x86_64.deb": {
+  "control": "Package: wordcraft\nVersion: 0.15.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 215232\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
+  "md5": "e70b29ba54255b9efa8566c1a6cdd2c0",
+  "sha1": "8bb7832b2eb2a589f0fbd6be7bc20dbe0d28e742",
+  "sha256": "9b97d48a4e775a10962f24f6fce5e8048b8e58ab4531503b6f01aeb634eb29f0",
+  "size": 115872008
  }
 }
