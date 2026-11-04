@@ -1021,27 +1021,6 @@
   "sha256": "5b55b9c5a18f4addfbf8b895e32553f54a34b35fff40cf7035af92e2a81138bf",
   "size": 16937254
  },
- "storytold/pdfcraft/releases/download/v0.14.0/pdfcraft-0.14.0-linux-aarch64.deb": {
-  "control": "Package: pdfcraft\nVersion: 0.14.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 154708\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
-  "md5": "5c3ad168674c784c58ef2bc8fa4adf7d",
-  "sha1": "768f737fdf8136fd76aeb7eda188af2077d5c934",
-  "sha256": "7ee41cd3a4fe53217b3f52a2f8d174d7206b87aa4bafdfdc9a8509af1149849b",
-  "size": 86544870
- },
- "storytold/pdfcraft/releases/download/v0.14.0/pdfcraft-0.14.0-linux-riscv64.deb": {
-  "control": "Package: pdfcraft\nVersion: 0.14.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 151364\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
-  "md5": "cf25cef9ff9e79ae612e6c011af9f4cb",
-  "sha1": "85aa89c0a747d14c73fb229593f2529d98a0f7f6",
-  "sha256": "2e7fa43a95b30c0f10b287e91c65794ade73ccb3b6885c95b68164f1da8cf365",
-  "size": 86788326
- },
- "storytold/pdfcraft/releases/download/v0.14.0/pdfcraft-0.14.0-linux-x86_64.deb": {
-  "control": "Package: pdfcraft\nVersion: 0.14.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 170323\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
-  "md5": "a7842e8942cc300eddea24f1828ae6a6",
-  "sha1": "c07fa152b0294cc27d6b570b6b0334ed2ee025e1",
-  "sha256": "9d8fe58e3ab10c51e2635501f13fc898640eb7df594576e666ace5a281f488c6",
-  "size": 89427156
- },
  "storytold/pdfcraft/releases/download/v0.15.0/pdfcraft-0.15.0-linux-aarch64.deb": {
   "control": "Package: pdfcraft\nVersion: 0.15.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 195555\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
   "md5": "1adb2426e58c071fae071ab710873049",
@@ -1125,6 +1104,27 @@
   "sha1": "52bb900a27218bb78cde573bf49dcf5e76978592",
   "sha256": "25c6d318693f65913fe1102082b9b60354b5b7f503ad789e4d6ef1fc506eb5c5",
   "size": 112577106
+ },
+ "storytold/pdfcraft/releases/download/v0.18.1/pdfcraft-0.18.1-linux-aarch64.deb": {
+  "control": "Package: pdfcraft\nVersion: 0.18.1-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 205024\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
+  "md5": "728da1336af6289e25cdccca48cd088c",
+  "sha1": "fa5632798e1aeda8123549789cf641276a4e875c",
+  "sha256": "b61611fa9096d8f1c0e05064bcf55b60017185eaf1ae5b5ea849be7c5c26c168",
+  "size": 111863998
+ },
+ "storytold/pdfcraft/releases/download/v0.18.1/pdfcraft-0.18.1-linux-riscv64.deb": {
+  "control": "Package: pdfcraft\nVersion: 0.18.1-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 201880\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
+  "md5": "c8aa2b84b902e3e8fb3ee605541b15b0",
+  "sha1": "ebd00e379f9378a3457ecd7e8ed2ea2830b53e6c",
+  "sha256": "fa7ca21202cdc82fa51632e729b5f2db4bf0af196bf380d9841372576ce291de",
+  "size": 112194096
+ },
+ "storytold/pdfcraft/releases/download/v0.18.1/pdfcraft-0.18.1-linux-x86_64.deb": {
+  "control": "Package: pdfcraft\nVersion: 0.18.1-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 221849\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
+  "md5": "ea45d1da32daeb0ebcaf976aea0979f4",
+  "sha1": "84f4ba43ab97638aab05e8fd253194501b980395",
+  "sha256": "43ef034fbf3f2c5178ef487986d34c03c447bf5e8cae2b100c6596f0a44905f4",
+  "size": 114877520
  },
  "storytold/photocraft/releases/download/v0.16.0/photocraft-0.16.0-linux-aarch64.deb": {
   "control": "Package: photocraft\nVersion: 0.16.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: PhotoCraft maintainers <photocraft@storyteller.ai>\nInstalled-Size: 153624\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/photocraft\nDescription: Open-source, native image editor with familiar, professional tools.\n Layers, masks, adjustment layers, layer styles, type and brushes; opens and\n saves layered PSD/PSB files; 8/16/32-bit documents; GPU compositing (wgpu).\n Includes photocraft-cli, a headless converter and command runner.",
@@ -1483,27 +1483,6 @@
   "sha256": "7b9496a8f4a91f36a5aa222ec99a38c0bece6e5ce571b895cb3e1117d0c3b2d3",
   "size": 143784886
  },
- "storytold/wordcraft/releases/download/v0.11.0/wordcraft-0.11.0-linux-aarch64.deb": {
-  "control": "Package: wordcraft\nVersion: 0.11.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 177379\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
-  "md5": "4333da47386b9e1e3e776097abf54402",
-  "sha1": "e09e899f53fb1b436751c371471149b69493c66d",
-  "sha256": "ea97a4f4e92fa16dc809682786c40d34a6effbf7b8d1e8c00afdc97e2df23482",
-  "size": 102574730
- },
- "storytold/wordcraft/releases/download/v0.11.0/wordcraft-0.11.0-linux-riscv64.deb": {
-  "control": "Package: wordcraft\nVersion: 0.11.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 174991\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
-  "md5": "27412b0db52df1eec5e7d06883d5401c",
-  "sha1": "05b3e3ff2c9dcdd541c6fb752b5e5091d0d7f508",
-  "sha256": "6425ac72fbbc41204a4f64769a7c7b539b6db6a1aaf02a10d86df0371af96286",
-  "size": 103515514
- },
- "storytold/wordcraft/releases/download/v0.11.0/wordcraft-0.11.0-linux-x86_64.deb": {
-  "control": "Package: wordcraft\nVersion: 0.11.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 189556\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
-  "md5": "9b2f275c09dea006d2c86fe07622eec8",
-  "sha1": "9de082aea99fbfd412650386fe5ee38135d2ae8a",
-  "sha256": "5246a58853c157fd81670cbd6b35c3c27b53c3a9a631eaeee4b8925bd01e3efd",
-  "size": 104909992
- },
  "storytold/wordcraft/releases/download/v0.12.0/wordcraft-0.12.0-linux-aarch64.deb": {
   "control": "Package: wordcraft\nVersion: 0.12.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 192470\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
   "md5": "15dbbc18823da7e434341f7e7587a161",
@@ -1587,5 +1566,26 @@
   "sha1": "8bb7832b2eb2a589f0fbd6be7bc20dbe0d28e742",
   "sha256": "9b97d48a4e775a10962f24f6fce5e8048b8e58ab4531503b6f01aeb634eb29f0",
   "size": 115872008
+ },
+ "storytold/wordcraft/releases/download/v0.15.1/wordcraft-0.15.1-linux-aarch64.deb": {
+  "control": "Package: wordcraft\nVersion: 0.15.1-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 204649\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
+  "md5": "adf054ba7c278aa1d36c6110b7741105",
+  "sha1": "f1bf6d40261942975a69d87197ecbaf5c2523a76",
+  "sha256": "651d3a85da229cf3ccbf1077f75ee16d21825058cf3213bdf2547d9d3fbae173",
+  "size": 114374424
+ },
+ "storytold/wordcraft/releases/download/v0.15.1/wordcraft-0.15.1-linux-riscv64.deb": {
+  "control": "Package: wordcraft\nVersion: 0.15.1-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 202077\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
+  "md5": "bcf52f5e53cc891b792502566182646c",
+  "sha1": "6e9b882d7e6d986b076fec30fa0bc25472362f87",
+  "sha256": "281f08a39631b49ff37be772a5a5cd9db68cd9c40746f583ba055480a91486f5",
+  "size": 115179436
+ },
+ "storytold/wordcraft/releases/download/v0.15.1/wordcraft-0.15.1-linux-x86_64.deb": {
+  "control": "Package: wordcraft\nVersion: 0.15.1-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 218411\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
+  "md5": "6bbba195e4ce1eb307b738e4680722c1",
+  "sha1": "d317705fd4cd333c3a0ae41633deda7847e02331",
+  "sha256": "7c340982ab7b83763b25342fc40432732eb6eaeca5be4ad53496825436729d8f",
+  "size": 116877664
  }
 }
