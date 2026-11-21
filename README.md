@@ -1,9 +1,58 @@
 # APT repository for storytold (ArtCraft) apps
 
+> **There is now an official APT repository: use it instead of this mirror.**
+> See <https://getartcraft.com/linux> (it also covers RPM, Arch and Flatpak).
+
+## Official repository (recommended)
+
+Supports Ubuntu 22.04+, Debian 12+ and derivatives on amd64, arm64 and riscv64.
+
+```sh
+# Signing key, fingerprint 2B76 741B 414A AD6C D33E  6312 13A0 05C0 B9D7 C3ED
+sudo install -d -m 755 /etc/apt/keyrings
+sudo curl -fsSL https://getartcraft.com/keys/artcraft.gpg -o /etc/apt/keyrings/artcraft.gpg
+sudo chmod 644 /etc/apt/keyrings/artcraft.gpg
+
+# Repository source (DEB822)
+sudo curl -fsSL https://getartcraft.com/apt/artcraft.sources -o /etc/apt/sources.list.d/artcraft.sources
+
+sudo apt update
+sudo apt install artcraft-launcher pdfcraft   # etc.; `apt search craft` lists them
+```
+
+Check the key before trusting it: `gpg --show-keys /etc/apt/keyrings/artcraft.gpg` must show the
+fingerprint above. The downloaded `artcraft.sources` contains:
+
+```
+Types: deb
+URIs: https://getartcraft.com/apt
+Suites: stable
+Components: main
+Architectures: amd64 arm64 riscv64
+Signed-By: /etc/apt/keyrings/artcraft.gpg
+```
+
+### Switching from this mirror
+
+The official repository uses the same package names and versions (e.g. `photocraft 0.23.1-1`), so
+installed packages are simply upgraded from it from now on. After adding the official repository
+as shown above, remove the mirror's source and key:
+
+```sh
+sudo rm -f /etc/apt/sources.list.d/storytold.sources \
+  /etc/apt/keyrings/storytold.asc /usr/share/keyrings/storytold-archive-keyring.gpg
+sudo apt update
+apt policy photocraft   # the only source listed should be https://getartcraft.com/apt
+```
+
+If you allowed the origin `storytold-mirror` in unattended-upgrades, replace it with `ArtCraft`.
+
+## Unofficial mirror (legacy)
+
 The [storytold](https://github.com/storytold) "Craft" apps (PhotoCraft, FilmCraft, WordCraft, …)
-ship `.deb` files with each GitHub release, but there is no official APT repository yet
-(it has been requested in [photocraft#3305](https://github.com/storytold/photocraft/issues/3305)).
-`storytold-apt-mirror.py` builds one, either
+ship `.deb` files with each GitHub release. Before the official repository existed (it was
+requested in [photocraft#3305](https://github.com/storytold/photocraft/issues/3305)),
+`storytold-apt-mirror.py` built one, either
 
 - [on GitHub](#hosted-on-github-no-server-needed): GitHub Actions builds the signed indexes and
   publishes them on GitHub Pages, apt downloads the `.deb` files directly from the GitHub releases, or
@@ -32,6 +81,8 @@ Disk space: one version of every app for all three architectures takes several G
 ## Hosted on GitHub (no server needed)
 
 ### Client setup
+
+New installations should use the [official repository](#official-repository-recommended) instead.
 
 Requires apt 1.6 or newer (any distro the packages support has it).
 
