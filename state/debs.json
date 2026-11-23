@@ -1238,27 +1238,6 @@
   "sha256": "55d66a14f1900404165cac3ca38587d78b88c4422ca5a872f2220c7115ce2287",
   "size": 22575954
  },
- "storytold/pdfcraft/releases/download/v0.18.2/pdfcraft-0.18.2-linux-aarch64.deb": {
-  "control": "Package: pdfcraft\nVersion: 0.18.2-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 205548\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
-  "md5": "69d14f66b29ebcd2c6affe62dab82793",
-  "sha1": "fb923ac45ea0d65fd1c3ab18a38162371e8775b9",
-  "sha256": "22a863dfb2964f1902761afc4cf3608a624e38755a7eefb335582a2ef1148bc2",
-  "size": 112049844
- },
- "storytold/pdfcraft/releases/download/v0.18.2/pdfcraft-0.18.2-linux-riscv64.deb": {
-  "control": "Package: pdfcraft\nVersion: 0.18.2-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 202392\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
-  "md5": "38414a20b67cd400e2f20ee8a6fbdea1",
-  "sha1": "e8ce82e954f5a651116d479455a13dc1b5ec3670",
-  "sha256": "7894c5258d67857c68973dd114065bd2abaa19fd6a44ca6d3623ec3a90e624de",
-  "size": 112477162
- },
- "storytold/pdfcraft/releases/download/v0.18.2/pdfcraft-0.18.2-linux-x86_64.deb": {
-  "control": "Package: pdfcraft\nVersion: 0.18.2-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 222485\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
-  "md5": "de7319133ba41cd0ab8a265742139da0",
-  "sha1": "cf09b016108c112b832252ecbdd0a49733426924",
-  "sha256": "5d5facc921c92d5ed8d339d875a5e240ff298b907c4b6a71807a22ebca3adb1f",
-  "size": 115179952
- },
  "storytold/pdfcraft/releases/download/v0.19.0/pdfcraft-0.19.0-linux-aarch64.deb": {
   "control": "Package: pdfcraft\nVersion: 0.19.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 207204\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
   "md5": "bb0cd5206432d6c47b2dff6a9acbb6d1",
@@ -1342,6 +1321,27 @@
   "sha1": "0a9117060570d172ba9301bc8cc224014f1bd013",
   "sha256": "e87baa0ef638be6ea97b521883e912318012028a80dbe1359f93cd21437be253",
   "size": 122486546
+ },
+ "storytold/pdfcraft/releases/download/v0.22.0/pdfcraft-0.22.0-linux-aarch64.deb": {
+  "control": "Package: pdfcraft\nVersion: 0.22.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 241396\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
+  "md5": "1e8efc794f4332a3c24abd1440ba8b47",
+  "sha1": "a3e7edd72fc372afef5ae18c4154bda41e74de67",
+  "sha256": "7a1cc758e88e1d36320687493500cc91f24a4802db1fd936b349e98fdd10ac9a",
+  "size": 128958024
+ },
+ "storytold/pdfcraft/releases/download/v0.22.0/pdfcraft-0.22.0-linux-riscv64.deb": {
+  "control": "Package: pdfcraft\nVersion: 0.22.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 237168\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
+  "md5": "e76eeab2e188a6f812504dabb76e558e",
+  "sha1": "2048fb18c55ef381bcefad8f888b09058abe82a2",
+  "sha256": "88d3160a1b9d30512298df62cbc3342c41033e50ce73083f42809965d7d93451",
+  "size": 129387054
+ },
+ "storytold/pdfcraft/releases/download/v0.22.0/pdfcraft-0.22.0-linux-x86_64.deb": {
+  "control": "Package: pdfcraft\nVersion: 0.22.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>\nInstalled-Size: 263584\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/pdfcraft\nDescription: Open-source, native PDF workbench: read, comment, fill and sign forms,\n organize, combine, split, edit, redact, protect and export PDFs.\n Includes pdfcraft-cli, a headless command runner and opt-in MCP server.",
+  "md5": "2140646b59023fa41f8e9a8d60c62adc",
+  "sha1": "add80c02868388d2dc3459e79d48b3473fbf1c9d",
+  "sha256": "a7e0e781e55adc633b68b417ec9860115ccaa2cc636588f183ae03e66a5edcdb",
+  "size": 132710802
  },
  "storytold/photocraft/releases/download/v0.20.2/photocraft-0.20.2-linux-aarch64.deb": {
   "control": "Package: photocraft\nVersion: 0.20.2-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: PhotoCraft maintainers <photocraft@storyteller.ai>\nInstalled-Size: 211968\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/photocraft\nDescription: Open-source, native image editor with familiar, professional tools.\n Layers, masks, adjustment layers, layer styles, type and brushes; opens and\n saves layered PSD/PSB files; 8/16/32-bit documents; GPU compositing (wgpu).\n Includes photocraft-cli, a headless converter and command runner.",
