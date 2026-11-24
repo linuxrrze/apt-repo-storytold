@@ -503,27 +503,6 @@
   "sha256": "59801c24ef5bdaf01a6a465f0e1d5f59aba36ad1e723cb833304b22d98c3f909",
   "size": 106105064
  },
- "storytold/designcraft/releases/download/v0.17.2/designcraft-0.17.2-linux-aarch64.deb": {
-  "control": "Package: designcraft\nVersion: 0.17.2-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: DesignCraft maintainers <designcraft@storyteller.ai>\nInstalled-Size: 219291\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/designcraft\nDescription: Open-source, native page layout and publishing that works the way InDesign users expect.\n Spreads and parent pages, threaded text frames, paragraph and character styles, swatches,\n text wrap and a Knuth-Plass paragraph composer; IDML import and export.\n Includes designcraft-cli, a headless renderer and command runner.",
-  "md5": "1d1140bb82791f6ea5ce85b4f8037092",
-  "sha1": "4c04967b7d3b4a0c11c313424994467678753c7b",
-  "sha256": "0e54ae72328b2a0080d3ac051cf60fb64ae401e8d4454509de629aa29e641c9f",
-  "size": 122846588
- },
- "storytold/designcraft/releases/download/v0.17.2/designcraft-0.17.2-linux-riscv64.deb": {
-  "control": "Package: designcraft\nVersion: 0.17.2-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: DesignCraft maintainers <designcraft@storyteller.ai>\nInstalled-Size: 218271\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/designcraft\nDescription: Open-source, native page layout and publishing that works the way InDesign users expect.\n Spreads and parent pages, threaded text frames, paragraph and character styles, swatches,\n text wrap and a Knuth-Plass paragraph composer; IDML import and export.\n Includes designcraft-cli, a headless renderer and command runner.",
-  "md5": "a68ddfca40f4d257ddc23e6aaaa33393",
-  "sha1": "5b3226e9f77b39adf8c88f76c4ada01a52e28eaf",
-  "sha256": "f954ed5f0458c8bbfeab40205993c4044c318a45212616793939586a63c58277",
-  "size": 124227190
- },
- "storytold/designcraft/releases/download/v0.17.2/designcraft-0.17.2-linux-x86_64.deb": {
-  "control": "Package: designcraft\nVersion: 0.17.2-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: DesignCraft maintainers <designcraft@storyteller.ai>\nInstalled-Size: 236600\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/designcraft\nDescription: Open-source, native page layout and publishing that works the way InDesign users expect.\n Spreads and parent pages, threaded text frames, paragraph and character styles, swatches,\n text wrap and a Knuth-Plass paragraph composer; IDML import and export.\n Includes designcraft-cli, a headless renderer and command runner.",
-  "md5": "53f7fea96d2458584d2bc3a2427e619e",
-  "sha1": "37c2c818495790d6a68684824df04d20ffe1efc4",
-  "sha256": "a80fec13d95744fd56055a235da28eefea892cee65bba04c819b890001992ff3",
-  "size": 126004820
- },
  "storytold/designcraft/releases/download/v0.18.0/designcraft-0.18.0-linux-aarch64.deb": {
   "control": "Package: designcraft\nVersion: 0.18.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: DesignCraft maintainers <designcraft@storyteller.ai>\nInstalled-Size: 220195\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/designcraft\nDescription: Open-source, native page layout and publishing that works the way InDesign users expect.\n Spreads and parent pages, threaded text frames, paragraph and character styles, swatches,\n text wrap and a Knuth-Plass paragraph composer; IDML import and export.\n Includes designcraft-cli, a headless renderer and command runner.",
   "md5": "10ca2b4b95bfe673d826ed7fe1168a90",
@@ -608,26 +587,26 @@
   "sha256": "a4b50ceffd33a13d2d52e01530f6de3236d50ada02a7cf0c8946de3195057b0f",
   "size": 126829130
  },
- "storytold/effectcraft/releases/download/v0.22.0/effectcraft-0.22.0-linux-aarch64.deb": {
-  "control": "Package: effectcraft\nVersion: 0.22.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: EffectCraft maintainers <effectcraft@storyteller.ai>\nInstalled-Size: 168135\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/effectcraft\nDescription: Open-source motion graphics and visual effects compositor.\n Layers with keyframes and a graph editor, masks and shapes, text animators,\n expressions, 3D cameras and lights, over 300 effects and a render queue\n (H.264, HEVC, AV1, ProRes, WebM, image sequences); GPU compositing (wgpu).\n Includes effectcraft-cli, a headless renderer, command runner and MCP server.",
-  "md5": "9114ba8a7ef3e09e26ae3104b3b8eb24",
-  "sha1": "35a0568a3b8f3f1b0f68600eed6371273bbf3eb7",
-  "sha256": "2f84dfdcbd5eaa03cde1651087751624e50035ee57b76886d5a968c2d016221e",
-  "size": 78653654
+ "storytold/designcraft/releases/download/v0.21.1/designcraft-0.21.1-linux-aarch64.deb": {
+  "control": "Package: designcraft\nVersion: 0.21.1-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: DesignCraft maintainers <designcraft@storyteller.ai>\nInstalled-Size: 250316\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/designcraft\nDescription: Open-source, native page layout and publishing that works the way InDesign users expect.\n Spreads and parent pages, threaded text frames, paragraph and character styles, swatches,\n text wrap and a Knuth-Plass paragraph composer; IDML import and export.\n Includes designcraft-cli, a headless renderer and command runner.",
+  "md5": "b0e57c60e5eee7091502a9a5e375c049",
+  "sha1": "f9804d5c432c46d363fa40e532857109e669c643",
+  "sha256": "9902e21d8510402384148e42c91f85a71b1c90724fb2f3c4ccb5f6baa6a8c34a",
+  "size": 136679924
  },
- "storytold/effectcraft/releases/download/v0.22.0/effectcraft-0.22.0-linux-riscv64.deb": {
-  "control": "Package: effectcraft\nVersion: 0.22.0-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: EffectCraft maintainers <effectcraft@storyteller.ai>\nInstalled-Size: 165226\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/effectcraft\nDescription: Open-source motion graphics and visual effects compositor.\n Layers with keyframes and a graph editor, masks and shapes, text animators,\n expressions, 3D cameras and lights, over 300 effects and a render queue\n (H.264, HEVC, AV1, ProRes, WebM, image sequences); GPU compositing (wgpu).\n Includes effectcraft-cli, a headless renderer, command runner and MCP server.",
-  "md5": "58b2a81766e6e5186118fa0e62addf55",
-  "sha1": "572208011ff5ad6aa62a710f2d73ffd22fe5267a",
-  "sha256": "02e173d981733125db6fd64e98399ee53ea205aec6502546640fb6b681001211",
-  "size": 79933732
+ "storytold/designcraft/releases/download/v0.21.1/designcraft-0.21.1-linux-riscv64.deb": {
+  "control": "Package: designcraft\nVersion: 0.21.1-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: DesignCraft maintainers <designcraft@storyteller.ai>\nInstalled-Size: 250632\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/designcraft\nDescription: Open-source, native page layout and publishing that works the way InDesign users expect.\n Spreads and parent pages, threaded text frames, paragraph and character styles, swatches,\n text wrap and a Knuth-Plass paragraph composer; IDML import and export.\n Includes designcraft-cli, a headless renderer and command runner.",
+  "md5": "6c1232fc635fc8a79a4a85e4cdc0b4cd",
+  "sha1": "eade2327e3b9899b4f3f7c17d44dd997ea5bb53b",
+  "sha256": "c2dc8f87e0a2cee43bace257c792986bf11595a9963aaf8360e8cc71467194cc",
+  "size": 139743562
  },
- "storytold/effectcraft/releases/download/v0.22.0/effectcraft-0.22.0-linux-x86_64.deb": {
-  "control": "Package: effectcraft\nVersion: 0.22.0-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: EffectCraft maintainers <effectcraft@storyteller.ai>\nInstalled-Size: 194592\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/effectcraft\nDescription: Open-source motion graphics and visual effects compositor.\n Layers with keyframes and a graph editor, masks and shapes, text animators,\n expressions, 3D cameras and lights, over 300 effects and a render queue\n (H.264, HEVC, AV1, ProRes, WebM, image sequences); GPU compositing (wgpu).\n Includes effectcraft-cli, a headless renderer, command runner and MCP server.",
-  "md5": "a27c2a355c7d5111147fd37a588eefa6",
-  "sha1": "87ecdfa524d9f64abd8f6dc58a1d194b61f41b11",
-  "sha256": "6ef6febcacf8928210400960c2c843ad51e125b24da1b06919edd489238f3c0f",
-  "size": 82514150
+ "storytold/designcraft/releases/download/v0.21.1/designcraft-0.21.1-linux-x86_64.deb": {
+  "control": "Package: designcraft\nVersion: 0.21.1-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: DesignCraft maintainers <designcraft@storyteller.ai>\nInstalled-Size: 271688\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/designcraft\nDescription: Open-source, native page layout and publishing that works the way InDesign users expect.\n Spreads and parent pages, threaded text frames, paragraph and character styles, swatches,\n text wrap and a Knuth-Plass paragraph composer; IDML import and export.\n Includes designcraft-cli, a headless renderer and command runner.",
+  "md5": "b76c83eb874e5e02c915b89973f2af3c",
+  "sha1": "25bfb8a2d88b645d57da3f4e067ec5a348ada62a",
+  "sha256": "29e1d9656ac49b8e87ec0b675c89c1357b44657705e347d5e006a26f9ee6a2e6",
+  "size": 140461238
  },
  "storytold/effectcraft/releases/download/v0.23.0/effectcraft-0.23.0-linux-aarch64.deb": {
   "control": "Package: effectcraft\nVersion: 0.23.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: EffectCraft maintainers <effectcraft@storyteller.ai>\nInstalled-Size: 169051\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/effectcraft\nDescription: Open-source motion graphics and visual effects compositor.\n Layers with keyframes and a graph editor, masks and shapes, text animators,\n expressions, 3D cameras and lights, over 300 effects and a render queue\n (H.264, HEVC, AV1, ProRes, WebM, image sequences); GPU compositing (wgpu).\n Includes effectcraft-cli, a headless renderer, command runner and MCP server.",
@@ -712,6 +691,27 @@
   "sha1": "7ad09a2a9e46307c30926c0209d1f31e2be829e6",
   "sha256": "731f1e37aa872c35a6accfab9fa98a16674db5f9a588eb68804e006a442fbd59",
   "size": 83726180
+ },
+ "storytold/effectcraft/releases/download/v0.25.1/effectcraft-0.25.1-linux-aarch64.deb": {
+  "control": "Package: effectcraft\nVersion: 0.25.1-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: EffectCraft maintainers <effectcraft@storyteller.ai>\nInstalled-Size: 185589\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/effectcraft\nDescription: Open-source motion graphics and visual effects compositor.\n Layers with keyframes and a graph editor, masks and shapes, text animators,\n expressions, 3D cameras and lights, over 300 effects and a render queue\n (H.264, HEVC, AV1, ProRes, WebM, image sequences); GPU compositing (wgpu).\n Includes effectcraft-cli, a headless renderer, command runner and MCP server.",
+  "md5": "44ca2943f696017707244804f79a3e47",
+  "sha1": "da3a64594e517e5eb4046cc9db1e9223916a9bf3",
+  "sha256": "b00f252832557db9d217dd5fb7a664b52482483786a35ab7d6cbf68ac8c72e53",
+  "size": 87390440
+ },
+ "storytold/effectcraft/releases/download/v0.25.1/effectcraft-0.25.1-linux-riscv64.deb": {
+  "control": "Package: effectcraft\nVersion: 0.25.1-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: EffectCraft maintainers <effectcraft@storyteller.ai>\nInstalled-Size: 182300\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/effectcraft\nDescription: Open-source motion graphics and visual effects compositor.\n Layers with keyframes and a graph editor, masks and shapes, text animators,\n expressions, 3D cameras and lights, over 300 effects and a render queue\n (H.264, HEVC, AV1, ProRes, WebM, image sequences); GPU compositing (wgpu).\n Includes effectcraft-cli, a headless renderer, command runner and MCP server.",
+  "md5": "066304f3a7d861c32755bc52ccc7ec04",
+  "sha1": "dfb25b6a44ce8cd7d31a88c82de6e40f2313f70a",
+  "sha256": "ea1a5dcc005c3ad73890079fb833f31ba3b5a7ff03010f39e840770e7188a2b9",
+  "size": 88922174
+ },
+ "storytold/effectcraft/releases/download/v0.25.1/effectcraft-0.25.1-linux-x86_64.deb": {
+  "control": "Package: effectcraft\nVersion: 0.25.1-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: EffectCraft maintainers <effectcraft@storyteller.ai>\nInstalled-Size: 215122\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/effectcraft\nDescription: Open-source motion graphics and visual effects compositor.\n Layers with keyframes and a graph editor, masks and shapes, text animators,\n expressions, 3D cameras and lights, over 300 effects and a render queue\n (H.264, HEVC, AV1, ProRes, WebM, image sequences); GPU compositing (wgpu).\n Includes effectcraft-cli, a headless renderer, command runner and MCP server.",
+  "md5": "ec02a224184db3a191fe313a11b80c92",
+  "sha1": "a724d34e094f335a642e20a8fb948351fd274a6c",
+  "sha256": "78a52997f898fee7cd81e50d5768348b023b6b267d6946497d90e57cd9b62ebe",
+  "size": 91868438
  },
  "storytold/figcraft/releases/download/v0.15.1/figcraft-0.15.1-linux-aarch64.deb": {
   "control": "Package: figcraft\nVersion: 0.15.1-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: FigCraft maintainers <figcraft@storyteller.ai>\nInstalled-Size: 196304\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/figcraft\nDescription: Open-source, native interface design and prototyping tool.\n Frames, vector shapes and text on an infinite canvas; auto layout and\n constraints; components, variants, styles and variables; interactive\n prototypes with a presentation mode; SVG and PNG export; GPU rendering (wgpu).",
