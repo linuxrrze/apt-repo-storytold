@@ -398,27 +398,6 @@
   "sha256": "366ca6cf497257479de9e8aad723ce6319b00f54c0eb8dd41dad5f62feb83e01",
   "size": 18647038
  },
- "storytold/deckcraft/releases/download/v0.15.1/deckcraft-0.15.1-linux-aarch64.deb": {
-  "control": "Package: deckcraft\nVersion: 0.15.1-1\nSection: editors\nPriority: optional\nArchitecture: arm64\nMaintainer: DeckCraft maintainers <deckcraft@storyteller.ai>\nInstalled-Size: 195127\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libasound2 | libasound2t64, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/deckcraft\nDescription: Open-source, native presentation app that works the way PowerPoint users\n expect. Themes, layouts, shapes, pictures, tables, charts, transitions and\n animations; opens and saves PowerPoint (.pptx) files; full-screen slide show\n with presenter view; GPU rendering (wgpu).\n Includes deckcraft-cli, a headless renderer and command runner.",
-  "md5": "8104c175996e3f6a0c22f162f9ddb102",
-  "sha1": "d0f0702f45349f5cd1d734db80d683cc99a2efc1",
-  "sha256": "a7775e7874300e5ae4465f8adf74196ee060a6b8af1d7520141c416dcbb1a617",
-  "size": 103267848
- },
- "storytold/deckcraft/releases/download/v0.15.1/deckcraft-0.15.1-linux-riscv64.deb": {
-  "control": "Package: deckcraft\nVersion: 0.15.1-1\nSection: editors\nPriority: optional\nArchitecture: riscv64\nMaintainer: DeckCraft maintainers <deckcraft@storyteller.ai>\nInstalled-Size: 192959\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libasound2 | libasound2t64, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/deckcraft\nDescription: Open-source, native presentation app that works the way PowerPoint users\n expect. Themes, layouts, shapes, pictures, tables, charts, transitions and\n animations; opens and saves PowerPoint (.pptx) files; full-screen slide show\n with presenter view; GPU rendering (wgpu).\n Includes deckcraft-cli, a headless renderer and command runner.",
-  "md5": "83bef481ef8fc6cc044e2557fbcafb7e",
-  "sha1": "bc3c4893a3beb848e926e6d6b5a7c91ed07ac526",
-  "sha256": "5426e35c2092ce02eccb18e07ed7a41c7e16b205f34965317d30acfbdf223a06",
-  "size": 104034334
- },
- "storytold/deckcraft/releases/download/v0.15.1/deckcraft-0.15.1-linux-x86_64.deb": {
-  "control": "Package: deckcraft\nVersion: 0.15.1-1\nSection: editors\nPriority: optional\nArchitecture: amd64\nMaintainer: DeckCraft maintainers <deckcraft@storyteller.ai>\nInstalled-Size: 205778\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libasound2 | libasound2t64, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/deckcraft\nDescription: Open-source, native presentation app that works the way PowerPoint users\n expect. Themes, layouts, shapes, pictures, tables, charts, transitions and\n animations; opens and saves PowerPoint (.pptx) files; full-screen slide show\n with presenter view; GPU rendering (wgpu).\n Includes deckcraft-cli, a headless renderer and command runner.",
-  "md5": "f45c501068439582be5d2902499ed328",
-  "sha1": "eb92c155e438a054e6e55b5075b7f82a1fc06c27",
-  "sha256": "7b0de9e0a69d425bb835d95305cf212d8b9f365fd7757e8559b3c4ef7c943f6a",
-  "size": 104993124
- },
  "storytold/deckcraft/releases/download/v0.16.0/deckcraft-0.16.0-linux-aarch64.deb": {
   "control": "Package: deckcraft\nVersion: 0.16.0-1\nSection: editors\nPriority: optional\nArchitecture: arm64\nMaintainer: DeckCraft maintainers <deckcraft@storyteller.ai>\nInstalled-Size: 196380\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libasound2 | libasound2t64, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/deckcraft\nDescription: Open-source, native presentation app that works the way PowerPoint users\n expect. Themes, layouts, shapes, pictures, tables, charts, transitions and\n animations; opens and saves PowerPoint (.pptx) files; full-screen slide show\n with presenter view; GPU rendering (wgpu).\n Includes deckcraft-cli, a headless renderer and command runner.",
   "md5": "36303d025f87361afb9c80ac33a36ada",
@@ -502,6 +481,27 @@
   "sha1": "7e35f2ae095f03676995cfe2e6053baea04fc7f6",
   "sha256": "59801c24ef5bdaf01a6a465f0e1d5f59aba36ad1e723cb833304b22d98c3f909",
   "size": 106105064
+ },
+ "storytold/deckcraft/releases/download/v0.19.1/deckcraft-0.19.1-linux-aarch64.deb": {
+  "control": "Package: deckcraft\nVersion: 0.19.1-1\nSection: editors\nPriority: optional\nArchitecture: arm64\nMaintainer: DeckCraft maintainers <deckcraft@storyteller.ai>\nInstalled-Size: 200400\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libasound2 | libasound2t64, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/deckcraft\nDescription: Open-source, native presentation app that works the way PowerPoint users\n expect. Themes, layouts, shapes, pictures, tables, charts, transitions and\n animations; opens and saves PowerPoint (.pptx) files; full-screen slide show\n with presenter view; GPU rendering (wgpu).\n Includes deckcraft-cli, a headless renderer and command runner.",
+  "md5": "b66f466754f7779267c1a1a3bc53088a",
+  "sha1": "3aec5fa51f5bc07bd7b90fe5626f685dd4adcb48",
+  "sha256": "15636f9fa5e122fdc1aa6fcf41a09324f85de7e0ffdc07f49626f185f8495427",
+  "size": 105834494
+ },
+ "storytold/deckcraft/releases/download/v0.19.1/deckcraft-0.19.1-linux-riscv64.deb": {
+  "control": "Package: deckcraft\nVersion: 0.19.1-1\nSection: editors\nPriority: optional\nArchitecture: riscv64\nMaintainer: DeckCraft maintainers <deckcraft@storyteller.ai>\nInstalled-Size: 199028\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libasound2 | libasound2t64, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/deckcraft\nDescription: Open-source, native presentation app that works the way PowerPoint users\n expect. Themes, layouts, shapes, pictures, tables, charts, transitions and\n animations; opens and saves PowerPoint (.pptx) files; full-screen slide show\n with presenter view; GPU rendering (wgpu).\n Includes deckcraft-cli, a headless renderer and command runner.",
+  "md5": "7057ae038aeb5135972cb44c92cb90bb",
+  "sha1": "fd8c0a7a6958d1a95f28ba6320445a2e54c73773",
+  "sha256": "143e462546a7b7988bed5e67a07ddb5943c1b0c0abb3c181e156adc85362d4f2",
+  "size": 107097668
+ },
+ "storytold/deckcraft/releases/download/v0.19.1/deckcraft-0.19.1-linux-x86_64.deb": {
+  "control": "Package: deckcraft\nVersion: 0.19.1-1\nSection: editors\nPriority: optional\nArchitecture: amd64\nMaintainer: DeckCraft maintainers <deckcraft@storyteller.ai>\nInstalled-Size: 213320\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libasound2 | libasound2t64, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/deckcraft\nDescription: Open-source, native presentation app that works the way PowerPoint users\n expect. Themes, layouts, shapes, pictures, tables, charts, transitions and\n animations; opens and saves PowerPoint (.pptx) files; full-screen slide show\n with presenter view; GPU rendering (wgpu).\n Includes deckcraft-cli, a headless renderer and command runner.",
+  "md5": "7bd31bff86f172281195c822b0dc08aa",
+  "sha1": "d5db45941a5c94f82333b3a34cc55fa45a213e5f",
+  "sha256": "a6ebfb4a230e569c8ae8848611bb9813378b351557bc07b6964d8a348d264459",
+  "size": 108054612
  },
  "storytold/designcraft/releases/download/v0.18.0/designcraft-0.18.0-linux-aarch64.deb": {
   "control": "Package: designcraft\nVersion: 0.18.0-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: DesignCraft maintainers <designcraft@storyteller.ai>\nInstalled-Size: 220195\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/designcraft\nDescription: Open-source, native page layout and publishing that works the way InDesign users expect.\n Spreads and parent pages, threaded text frames, paragraph and character styles, swatches,\n text wrap and a Knuth-Plass paragraph composer; IDML import and export.\n Includes designcraft-cli, a headless renderer and command runner.",
@@ -1763,27 +1763,6 @@
   "sha256": "ae6733083d2819efe980d76d41d1908d40fe487bb9a5e7679292b53fd8dc49d7",
   "size": 160193464
  },
- "storytold/wordcraft/releases/download/v0.15.1/wordcraft-0.15.1-linux-aarch64.deb": {
-  "control": "Package: wordcraft\nVersion: 0.15.1-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 204649\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
-  "md5": "adf054ba7c278aa1d36c6110b7741105",
-  "sha1": "f1bf6d40261942975a69d87197ecbaf5c2523a76",
-  "sha256": "651d3a85da229cf3ccbf1077f75ee16d21825058cf3213bdf2547d9d3fbae173",
-  "size": 114374424
- },
- "storytold/wordcraft/releases/download/v0.15.1/wordcraft-0.15.1-linux-riscv64.deb": {
-  "control": "Package: wordcraft\nVersion: 0.15.1-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 202077\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
-  "md5": "bcf52f5e53cc891b792502566182646c",
-  "sha1": "6e9b882d7e6d986b076fec30fa0bc25472362f87",
-  "sha256": "281f08a39631b49ff37be772a5a5cd9db68cd9c40746f583ba055480a91486f5",
-  "size": 115179436
- },
- "storytold/wordcraft/releases/download/v0.15.1/wordcraft-0.15.1-linux-x86_64.deb": {
-  "control": "Package: wordcraft\nVersion: 0.15.1-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 218411\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
-  "md5": "6bbba195e4ce1eb307b738e4680722c1",
-  "sha1": "d317705fd4cd333c3a0ae41633deda7847e02331",
-  "sha256": "7c340982ab7b83763b25342fc40432732eb6eaeca5be4ad53496825436729d8f",
-  "size": 116877664
- },
  "storytold/wordcraft/releases/download/v0.15.2/wordcraft-0.15.2-linux-aarch64.deb": {
   "control": "Package: wordcraft\nVersion: 0.15.2-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 210781\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
   "md5": "4fda52d18121a26a831e02b8746ee401",
@@ -1867,5 +1846,26 @@
   "sha1": "f3660e4b1be9a63825e3eb8dd2a7dbdabd2d7cf6",
   "sha256": "9b557161ded7b5973112c8c21f600fe0b0110c1a4d3151184485733c96f87e19",
   "size": 120018580
+ },
+ "storytold/wordcraft/releases/download/v0.19.1/wordcraft-0.19.1-linux-aarch64.deb": {
+  "control": "Package: wordcraft\nVersion: 0.19.1-1\nSection: graphics\nPriority: optional\nArchitecture: arm64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 242035\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxkbcommon-x11-0, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal, espeak-ng | speech-dispatcher\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
+  "md5": "2db53006cd36e937be9af260befc40a0",
+  "sha1": "2e07ea07c13c790ba1bb03f3d32b624c9424b29d",
+  "sha256": "b4db4eef71135cb2c516fdfa69c10b1af277384b1b023651b6e2bfbc23c59314",
+  "size": 128693840
+ },
+ "storytold/wordcraft/releases/download/v0.19.1/wordcraft-0.19.1-linux-riscv64.deb": {
+  "control": "Package: wordcraft\nVersion: 0.19.1-1\nSection: graphics\nPriority: optional\nArchitecture: riscv64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 238839\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxkbcommon-x11-0, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal, espeak-ng | speech-dispatcher\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
+  "md5": "e87f015e32f15dbf71fc7fbbebd04900",
+  "sha1": "1e937e81e00955429b2b643587ad1e3fa030db21",
+  "sha256": "e0469aaef4821eb2fe1ff3d9d80b2133e8e2e2f4b6a76a0b5fb9909dcbee79fd",
+  "size": 130181794
+ },
+ "storytold/wordcraft/releases/download/v0.19.1/wordcraft-0.19.1-linux-x86_64.deb": {
+  "control": "Package: wordcraft\nVersion: 0.19.1-1\nSection: graphics\nPriority: optional\nArchitecture: amd64\nMaintainer: WordCraft maintainers <wordcraft@storyteller.ai>\nInstalled-Size: 261205\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxkbcommon-x11-0, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal, espeak-ng | speech-dispatcher\nHomepage: https://getartcraft.com/apps/wordcraft\nDescription: Open-source, native word processor that works the way Word users expect.\n The ribbon, styles, tables, track changes, references and mail merge; reads\n and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.\n Includes wordcraft-cli, a headless converter and command runner.",
+  "md5": "31e6a9a320e6e33e3c79dfec0f44003a",
+  "sha1": "7250a25bcc337805b7b83d27a16f727b7492e862",
+  "sha256": "9ba913f053ab9cb9160d080f0c8db08c1c9eb94b3bdc7f2c0a0d784e034a5bd5",
+  "size": 132278240
  }
 }
