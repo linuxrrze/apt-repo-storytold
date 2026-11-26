@@ -293,27 +293,6 @@
   "sha256": "b9a4795a7c294bd266ad7e53d53d6f6761ac3d0207ee82d37b3c578463be8e4b",
   "size": 71411420
  },
- "storytold/craft-launcher/releases/download/v0.19.0/artcraft-launcher-0.19.0-linux-aarch64.deb": {
-  "control": "Package: artcraft-launcher\nVersion: 0.19.0-1\nSection: utils\nPriority: optional\nArchitecture: arm64\nMaintainer: ArtCraft Launcher maintainers <craft-launcher@storyteller.ai>\nInstalled-Size: 27058\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://github.com/storytold/craft-launcher\nDescription: Install, update and launch the Craft App Suite.\n ArtCraft Launcher lists PhotoCraft, LightCraft, FilmCraft, DesignCraft,\n VectorCraft, PdfCraft, EffectCraft, WordCraft, DeckCraft, GridCraft, CADCraft,\n SoundCraft and FigCraft, installs the right build for this computer and keeps\n them up to date from GitHub releases. It can live in the system tray.",
-  "md5": "ae6d9a432b842ce502bd4eda9c37aa07",
-  "sha1": "990ddfefcca9f41337ed175cec36ce34101cc57e",
-  "sha256": "1ed991b464390b55a9cc95eca0076230f7e1cd79ca2fef43181ae3ad308741fb",
-  "size": 13403274
- },
- "storytold/craft-launcher/releases/download/v0.19.0/artcraft-launcher-0.19.0-linux-riscv64.deb": {
-  "control": "Package: artcraft-launcher\nVersion: 0.19.0-1\nSection: utils\nPriority: optional\nArchitecture: riscv64\nMaintainer: ArtCraft Launcher maintainers <craft-launcher@storyteller.ai>\nInstalled-Size: 26753\nDepends: libc6 (>= 2.39), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://github.com/storytold/craft-launcher\nDescription: Install, update and launch the Craft App Suite.\n ArtCraft Launcher lists PhotoCraft, LightCraft, FilmCraft, DesignCraft,\n VectorCraft, PdfCraft, EffectCraft, WordCraft, DeckCraft, GridCraft, CADCraft,\n SoundCraft and FigCraft, installs the right build for this computer and keeps\n them up to date from GitHub releases. It can live in the system tray.",
-  "md5": "4392e3c5c3e5b912cc433471262ce984",
-  "sha1": "4a306ce552b1f2d1f4bf8e90a88d49839e7b26ef",
-  "sha256": "2be4658bc3501dbd07b47584f39bfe85c86ec2c2f70d70e39d8418352761fcd0",
-  "size": 13859534
- },
- "storytold/craft-launcher/releases/download/v0.19.0/artcraft-launcher-0.19.0-linux-x86_64.deb": {
-  "control": "Package: artcraft-launcher\nVersion: 0.19.0-1\nSection: utils\nPriority: optional\nArchitecture: amd64\nMaintainer: ArtCraft Launcher maintainers <craft-launcher@storyteller.ai>\nInstalled-Size: 30429\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://github.com/storytold/craft-launcher\nDescription: Install, update and launch the Craft App Suite.\n ArtCraft Launcher lists PhotoCraft, LightCraft, FilmCraft, DesignCraft,\n VectorCraft, PdfCraft, EffectCraft, WordCraft, DeckCraft, GridCraft, CADCraft,\n SoundCraft and FigCraft, installs the right build for this computer and keeps\n them up to date from GitHub releases. It can live in the system tray.",
-  "md5": "6f100c2ca58d78192fe5eba22b5f5fac",
-  "sha1": "933cc1a5601290e07d24b0a120c214e84e8662c3",
-  "sha256": "d34f394a9e171ef774a773a708bdd27ee5da7ad245e3089ade853cbe25c35f77",
-  "size": 13952944
- },
  "storytold/craft-launcher/releases/download/v0.19.1/artcraft-launcher-0.19.1-linux-aarch64.deb": {
   "control": "Package: artcraft-launcher\nVersion: 0.19.1-1\nSection: utils\nPriority: optional\nArchitecture: arm64\nMaintainer: ArtCraft Launcher maintainers <craft-launcher@storyteller.ai>\nInstalled-Size: 27399\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://github.com/storytold/craft-launcher\nDescription: Install, update and launch the Craft App Suite.\n ArtCraft Launcher lists PhotoCraft, LightCraft, FilmCraft, DesignCraft,\n VectorCraft, PdfCraft, EffectCraft, WordCraft, DeckCraft, GridCraft, CADCraft,\n SoundCraft and FigCraft, installs the right build for this computer and keeps\n them up to date from GitHub releases. It can live in the system tray.",
   "md5": "f0326439ae0ff8a0a2f47093d971f452",
@@ -397,6 +376,27 @@
   "sha1": "63e8f8dd17d9dcda4fdde2c16262610afcbb66c6",
   "sha256": "366ca6cf497257479de9e8aad723ce6319b00f54c0eb8dd41dad5f62feb83e01",
   "size": 18647038
+ },
+ "storytold/craft-launcher/releases/download/v0.20.3/artcraft-launcher-0.20.3-linux-aarch64.deb": {
+  "control": "Package: artcraft-launcher\nVersion: 0.20.3-1\nSection: utils\nPriority: optional\nArchitecture: arm64\nMaintainer: ArtCraft Launcher maintainers <craft-launcher@storyteller.ai>\nInstalled-Size: 34186\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://github.com/storytold/craft-launcher\nDescription: Install, update and launch the Craft App Suite.\n ArtCraft Launcher lists PhotoCraft, LightCraft, FilmCraft, DesignCraft,\n VectorCraft, PdfCraft, EffectCraft, WordCraft, DeckCraft, GridCraft, CADCraft,\n SoundCraft and FigCraft, installs the right build for this computer and keeps\n them up to date from GitHub releases. It can live in the system tray.",
+  "md5": "eceb981cf87f0c5925b14919c4459039",
+  "sha1": "5e57427011adda328c543cf7dc417e7cb75ec38d",
+  "sha256": "86277741ae60c2cbe0b28c4ba37eb2a99791d5146a316c031a632f03e1e4ea23",
+  "size": 18036892
+ },
+ "storytold/craft-launcher/releases/download/v0.20.3/artcraft-launcher-0.20.3-linux-riscv64.deb": {
+  "control": "Package: artcraft-launcher\nVersion: 0.20.3-1\nSection: utils\nPriority: optional\nArchitecture: riscv64\nMaintainer: ArtCraft Launcher maintainers <craft-launcher@storyteller.ai>\nInstalled-Size: 33773\nDepends: libc6 (>= 2.39), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://github.com/storytold/craft-launcher\nDescription: Install, update and launch the Craft App Suite.\n ArtCraft Launcher lists PhotoCraft, LightCraft, FilmCraft, DesignCraft,\n VectorCraft, PdfCraft, EffectCraft, WordCraft, DeckCraft, GridCraft, CADCraft,\n SoundCraft and FigCraft, installs the right build for this computer and keeps\n them up to date from GitHub releases. It can live in the system tray.",
+  "md5": "617c47699296ad657bc6aee669dbd3ea",
+  "sha1": "55d526e03687456d3e2c7635e2a2c514c600f8fa",
+  "sha256": "9aeb19285ddc548cf4013054b2c5f64ceb252bf182564d8d29999587b5406551",
+  "size": 18506016
+ },
+ "storytold/craft-launcher/releases/download/v0.20.3/artcraft-launcher-0.20.3-linux-x86_64.deb": {
+  "control": "Package: artcraft-launcher\nVersion: 0.20.3-1\nSection: utils\nPriority: optional\nArchitecture: amd64\nMaintainer: ArtCraft Launcher maintainers <craft-launcher@storyteller.ai>\nInstalled-Size: 38389\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1\nRecommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal\nHomepage: https://github.com/storytold/craft-launcher\nDescription: Install, update and launch the Craft App Suite.\n ArtCraft Launcher lists PhotoCraft, LightCraft, FilmCraft, DesignCraft,\n VectorCraft, PdfCraft, EffectCraft, WordCraft, DeckCraft, GridCraft, CADCraft,\n SoundCraft and FigCraft, installs the right build for this computer and keeps\n them up to date from GitHub releases. It can live in the system tray.",
+  "md5": "b553d44c61619bf093235172d102ba3d",
+  "sha1": "fa3e865ebef1e5bdfc077f2c07926cea499af58a",
+  "sha256": "9eff43c8b2fb02d32ae6c64ac5cd49748df5d55c97b78f850bbefce685b186ed",
+  "size": 18718958
  },
  "storytold/deckcraft/releases/download/v0.16.0/deckcraft-0.16.0-linux-aarch64.deb": {
   "control": "Package: deckcraft\nVersion: 0.16.0-1\nSection: editors\nPriority: optional\nArchitecture: arm64\nMaintainer: DeckCraft maintainers <deckcraft@storyteller.ai>\nInstalled-Size: 196380\nDepends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libasound2 | libasound2t64, libvulkan1 | libegl1\nRecommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal\nHomepage: https://getartcraft.com/apps/deckcraft\nDescription: Open-source, native presentation app that works the way PowerPoint users\n expect. Themes, layouts, shapes, pictures, tables, charts, transitions and\n animations; opens and saves PowerPoint (.pptx) files; full-screen slide show\n with presenter view; GPU rendering (wgpu).\n Includes deckcraft-cli, a headless renderer and command runner.",
